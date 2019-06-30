@@ -6,8 +6,9 @@
 	import { garnetUnfilled } from '../scripts/shapes.js';
 
 	const brotherLabels = ['brothers', 'entrepreneurs', 'leaders', 'pioneers',
-					'philanthropists', 'best friends', 'family', 'world changers',
-					'adventurers',]
+					'philanthropists', 'friends', 'family', 'diverse',
+					'adventurers', 'pro gamers', 'youtube stars', 'CEOs', 
+					'project managers', 'artists', 'inclusive']
 </script>
 
 <style>

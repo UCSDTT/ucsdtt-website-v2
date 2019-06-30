@@ -14,10 +14,18 @@
             visible = true;
             setTimeout(() => {
                 visible = false;
-                wordIndex = (wordIndex + 1) % brotherLabels.length;
+                wordIndex = pickNextIndex(wordIndex);
             }, 1000);
         }, 1500)
     });
+
+    function pickNextIndex(curIndex) {
+        let nextIndex = Math.floor(Math.random() * brotherLabels.length);
+        if (nextIndex === curIndex) {
+            return (curIndex + 1) % brotherLabels.length
+        }
+        return nextIndex;
+    }
 
 
     function typewriter(node, { speed = 50 }) {
