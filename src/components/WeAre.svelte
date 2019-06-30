@@ -60,7 +60,7 @@
         {#if visible}
             <span class="formal"
                 in:typewriter
-                out:fade
+                out:fade="{{duration: 280}}"
             >
                 {brotherLabels[wordIndex]}
             </span>

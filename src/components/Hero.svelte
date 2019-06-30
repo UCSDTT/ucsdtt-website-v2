@@ -63,7 +63,9 @@
 {#if visible}
 	<h1 
 		class="text-display lg-view" 
-		transition:fade>{dispSmall ? titleSmall : titleBig}
+		in:fade
+	>
+		{dispSmall ? titleSmall : titleBig}
 	</h1>
 {/if}
 {#if visible}
