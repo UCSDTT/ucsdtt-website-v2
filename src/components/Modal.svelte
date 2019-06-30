@@ -19,8 +19,8 @@
 		position: absolute;
 		left: 50%;
 		top: 50%;
-		width: calc(100vw - 4em);
-		max-width: 56em;
+		max-width: calc(100vw - 4em);
+		width: 40em;
 		max-height: calc(100vh - 4em);
 		overflow: auto;
 		transform: translate(-50%,-50%);
@@ -28,6 +28,20 @@
 		border-radius: 0.2em;
 		background: white;
 	}
+/* 
+	.modal {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		max-width: calc(100vw - 4em);
+		width: 56em;
+		max-height: calc(100vh - 4em);
+		overflow: auto;
+		transform: translate(-50%,-50%);
+		padding: 1em;
+		border-radius: 0.2em;
+		background: white;
+	} */
 
 	button {
         font-size: 2em;
@@ -35,8 +49,6 @@
 		background-color: transparent;
 		border: none;
 		color: maroon;
-		opacity: 0;
-		transition: opacity 0.2s;
     }
     
     section.header {
@@ -46,7 +58,6 @@
     }
 
 	section.header:hover button {
-        opacity: 1;
         cursor: pointer;
 	}
 </style>

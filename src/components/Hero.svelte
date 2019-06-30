@@ -24,11 +24,14 @@
 <style>
 	.parallax {
 		position: absolute;
+		top: 4em;
 		width: 50em;
 		height: 30em;
-		left: 10em;
+		left: 50%;
+		margin-left: -25em;
 		will-change: transform;
 		display: none;
+		z-index: -1;
 	}
 
 	@media (min-width: 1000px) {
@@ -37,18 +40,21 @@
 		}
 	}
 	@media (max-width: 999px) {
-		h1.text-display {
+		/* h1.text-display {
 			top: 1em;
 			font-size: 3em;
-		}
+		} */
 	}
 
 	h1.text-display {
-		position: absolute;
+		/* position: relative; */
 		text-align: center;
-		top: 1.9em;
-		left: 0.1em;
-		right: 0.1em;
+		margin-top: 2em;
+		padding: 3em 5em 0 5em;
+		/* top: 1.9em;
+		left: 3.5em;
+		right: 3.5em;
+		min-width: 10em; */
 		color: white;
 		text-shadow: 0 0 10px black;
 		font-size: 5em;

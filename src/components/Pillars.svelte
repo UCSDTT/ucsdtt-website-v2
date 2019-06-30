@@ -16,15 +16,15 @@
 
     ul.pillared li {
         margin: 0.5em;
-        padding: 1em;
+        padding: 10px;
         font-size: 2em;
         display: flex;
         /* justify-items: center; */
         align-items: center;
     }
     ul.pillared li span {
-        color: white;
         padding-left: 0.5em;
+        color: white;
     }
 
     ul.pillared li:hover{
@@ -43,7 +43,7 @@
     h2.modal-li {
         font-size: 2em;
         margin: initial;
-        padding: 0.4em;
+        padding: 0.2em;
     }
 
     li.modal-li {

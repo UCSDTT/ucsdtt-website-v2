@@ -46,7 +46,7 @@
     }
     @media (max-width: 999px) {
         h1 {
-            text-align: center;
+            /* text-align: center; */
             font-size: 2em;
         }
     }

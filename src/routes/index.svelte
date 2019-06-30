@@ -2,6 +2,7 @@
 	import Hero from '../components/Hero.svelte';
 	import WeAre from '../components/WeAre.svelte';
 	import Pillars from '../components/Pillars.svelte';
+	import Card from '../components/Card.svelte';
 	import { garnetUnfilled } from '../scripts/shapes.js';
 
 	const brotherLabels = ['brothers', 'entrepreneurs', 'leaders', 'pioneers',
@@ -12,23 +13,28 @@
 <style>
 	.hero-div {
 		/* width: 100%; */
-		height: 30em;
+		height: 32em;
+		max-width: 50em;
+	}
+
+	div.pillars-div {
+		position: relative;
+		margin: 10em 2em 0 2em;
+		background-color: #999;
+		border: 1em black solid;
 		max-width: 56em;
 	}
 
-	.pillars-div {
-		position: absolute;
-		top: 65em;
-		background-color: maroon;
-	}
-
-	.pillars-div h1 {
-		color: white;
+	div.pillars-div h1 {
 		text-align: center;
+		padding: 30px;
+		margin: 5px;
+		color: white;
+		border-bottom: 10px maroon dotted;
 	}
 
 	:global(body) {
-		background: linear-gradient(white 40em, maroon 55em);
+		background: linear-gradient(white 40em, maroon 55em, white 150vh);
 	}
 
 	p {
@@ -39,7 +45,16 @@
 		.hero-div {
 			height: 20em;
 		}
+
+		.pillars-div {
+			top: 10em;
+		}
+
+		:global(body) {
+			background-color: white;
+		}
 	}
+
 </style>
 
 <svelte:head>
@@ -56,6 +71,18 @@
 	/>
 </div>
 <WeAre {brotherLabels}/>
+
+<Card>
+	<h3 slot="header">UC San Diego's premier engineering fraternity.</h3>
+	<p slot="left">Lorem ipsoumLorem ipsoumLorem ipsoum Lorem ipsoumLorem ipsoum
+	Lorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoum
+	Lorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoum
+	Lorem ipsoumLorem ipsoum</p>
+	<p slot="right">Lorem ipsoumLorem ipsoumLorem ipsoum Lorem ipsoumLorem ipsoum
+	Lorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoum
+	Lorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoum
+	Lorem ipsoumLorem ipsoum</p>
+</Card>
 
 <div class="pillars-div">
 	<h1>the Three Pillars</h1>

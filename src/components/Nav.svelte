@@ -4,10 +4,15 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
+		border-bottom: 2px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
 		display: flex;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0px;
+		background-color: white;
+		z-index: 2;
 	}
 
 	ul {
@@ -54,7 +59,7 @@
 		color: maroon;
 	}
 
-	@media (min-width: 800px) {
+	@media (min-width: 1000px) {
 		a {
 			font-size: 1.5em;
 		}
