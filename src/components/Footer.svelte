@@ -17,21 +17,22 @@
         padding: 0 10px;
         margin: 10px 10px;
         border-left: 1px black dashed;
+        color: white;
     }
 
-    p.footer-div {
-        color: white;
+    ul.footer-div {
+        list-style-type: none;
     }
 
 </style>
 
 <footer>
     <img class="footer-div" src="images/hamntongs.png" alt="our seal" height="60px">
-    <p class="footer-div">
+    <ul class="footer-div">
         <strong>Contributors:</strong><br>
-        <a href="https://github.com/willxu1234"> Will Xu</a><br>
-        <a href="https://github.com/clarkphan"> Clark Phan</a>
-    </p>
+        <li><a href="https://github.com/willxu1234"> Will Xu</a></li>
+        <li><a href="https://github.com/clarkphan">Clark Phan</a></li>
+    </ul>
     <p class="footer-div">
         Icons from
         <a href="https://icons8.com/icons">icons8</a>
