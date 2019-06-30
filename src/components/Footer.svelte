@@ -29,7 +29,7 @@
     <img class="footer-div" src="images/hamntongs.png" alt="our seal" height="60px">
     <p class="footer-div">
         <strong>Contributors:</strong><br>
-        <a href="https://github.com/willxu1234"> Will Xu</a>
+        <a href="https://github.com/willxu1234"> Will Xu</a><br>
         <a href="https://github.com/clarkphan"> Clark Phan</a>
     </p>
     <p class="footer-div">
