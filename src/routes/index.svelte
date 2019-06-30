@@ -51,6 +51,10 @@
     :global(body) {
       background-color: white;
     }
+
+    h3 {
+      text-align: center;
+    }
   }
 
   figcaption {
