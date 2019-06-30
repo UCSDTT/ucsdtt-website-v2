@@ -10,15 +10,15 @@
 
     onMount(() => {
         weAreVisible = true;
+        setInterval(() => {
+            visible = true;
+            setTimeout(() => {
+                visible = false;
+                wordIndex = (wordIndex + 1) % brotherLabels.length;
+            }, 1000);
+        }, 1500)
     });
 
-    setInterval(() => {
-        visible = true;
-        setTimeout(() => {
-            visible = false;
-            wordIndex = (wordIndex + 1) % brotherLabels.length;
-        }, 2000);
-    }, 2800)
 
     function typewriter(node, { speed = 50 }) {
 		if (wordIndex < 0 || wordIndex >= brotherLabels.length) {

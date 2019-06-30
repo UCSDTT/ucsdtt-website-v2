@@ -6,4 +6,4 @@ then
 fi
 git subtree push --prefix $1 origin gh-pages
 
-# Use: $ git gh-deploy ../__sapper__/export
+# Use: $ git gh-deploy ./__sapper__/export

@@ -52,7 +52,16 @@
 		font-size: 2em;
 		padding: 0.1em 0.7em 0.1em 0.5em;
 		color: maroon;
+	}
 
+	@media (min-width: 800px) {
+		a {
+			font-size: 1.5em;
+		}
+
+		a#letters {
+			font-size: 3em;
+		}
 	}
 
 	a:hover {
