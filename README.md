@@ -5,7 +5,7 @@
 
 ## Getting Started
 1. Install with `npm install`
-2. Build with `npm build`
+2. Build with `npm run build`
 3. Run development server with `npm run dev`
 4. Write static site to `__sapper__/export` with `npm run export` (more on this later)
 
