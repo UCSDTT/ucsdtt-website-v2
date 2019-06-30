@@ -38,7 +38,7 @@ Contains all the Svelte components to reuse across different pages, and even wit
 
 ##### `routes`
 Contains the routes. If the file name is `x.svelte`, then you will be able to access that component with `[base url]/x`. If you add an underscore in front of the name, it won't be served as a a route.  
-`blog` is currently an example for folders as routes, which we have not implemented yet but will for `members` to use prefetching.
+`blog` is currently an example for folders as routes, which we have not implemented yet but will for `members` to use prefetching. `index.svelte` component for the website entry point.
 
 ##### `scripts`
 Any JS files you want to include that don't really fit any other descriptions.
