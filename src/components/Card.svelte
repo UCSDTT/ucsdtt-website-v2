@@ -21,7 +21,7 @@
     }
     
     .left-div {
-        border-right: 2px dotted #333;
+        border-right: 5px dotted #333;
     }
     
     .right-div {

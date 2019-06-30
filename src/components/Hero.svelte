@@ -60,6 +60,7 @@
 		font-size: 5em;
 		padding: 0.1em;
 		background-color: rgba(128, 0, 0, 0.7);
+		filter: drop-shadow(0 0 0.3em yellow);
 		z-index: 1;
 	}
 
