@@ -12,6 +12,11 @@
 ## Making Changes 
 You can run the script in tools/deploy.sh to immeidately add/commit/deploy/push your changes. Feel free to run any of the commands in there one by one if you want more fine-tuned control.
 
+## Contributing Guidelines:
+To contribute, please create a separate branch named `<your initials>/<what you did>`. For example, a change I would make
+would be `wx/readme`. Then, commit with a commit message that follows that should follow the phrase "this commit shoud... ". For example, `add readme file`. Export your project and create a pull request when your code is ready. Finally, await a 
+passing review and your code will be merged and deployed.
+
 ## Todo's:
 - Document existing code.
 - Protect the master branch
