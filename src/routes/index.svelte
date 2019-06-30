@@ -1,20 +1,34 @@
 <script>
 	import Hero from '../components/Hero.svelte';
 	import WeAre from '../components/WeAre.svelte';
+	import Pillars from '../components/Pillars.svelte';
 	import { garnetUnfilled } from '../scripts/shapes.js';
 
 	const brotherLabels = ['brothers', 'entrepreneurs', 'leaders', 'pioneers',
-					'philanthropists', 'best friends', 'family', 'world changers']
+					'philanthropists', 'best friends', 'family', 'world changers',
+					'adventurers',]
 </script>
 
 <style>
 	.hero-div {
-		width: 100%;
+		/* width: 100%; */
 		height: 30em;
+		max-width: 56em;
 	}
 
-	main {
-		background-image: url(images/sigma_fun.jpg);
+	.pillars-div {
+		position: absolute;
+		top: 65em;
+		background-color: maroon;
+	}
+
+	.pillars-div h1 {
+		color: white;
+		text-align: center;
+	}
+
+	:global(body) {
+		background: linear-gradient(white 40em, maroon 55em);
 	}
 
 	p {
@@ -43,6 +57,10 @@
 </div>
 <WeAre {brotherLabels}/>
 
+<div class="pillars-div">
+	<h1>the Three Pillars</h1>
+	<Pillars />
+</div>
 <!-- <h1>Great success!</h1> -->
 
 <!-- <img alt='fun' src='images/sigma_fun.jpg'> -->
