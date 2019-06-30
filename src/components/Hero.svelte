@@ -8,12 +8,11 @@
 	export let svg;
 	export let titleBig;
 	export let titleSmall;
-	export let tagline;
 
 	let sy = 0;
 	let iw = 0;
 
-	$: dispSmall = iw <= 800;
+	$: dispSmall = iw <= 1000;
 
 	onMount(()=> {
 		visible = true;
@@ -31,6 +30,7 @@
 		will-change: transform;
 		display: none;
 	}
+
 	@media (min-width: 800px) {
 		.parallax {
 			display: block;

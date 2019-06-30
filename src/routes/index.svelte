@@ -1,10 +1,19 @@
 <script>
 	import Hero from '../components/Hero.svelte';
+	import WeAre from '../components/WeAre.svelte';
 	import { garnetUnfilled } from './shapes.js';
+
+	const brotherLabels = ['brothers', 'entrepreneurs', 'leaders', 'pioneers',
+					'philanthropists', 'best friends', 'family', 'world changers']
 </script>
 
 <style>
-	.hero-section {
+	.hero-div {
+		width: 100%;
+		height: 30em;
+	}
+
+	main {
 		background-image: url(images/sigma_fun.jpg);
 	}
 
@@ -12,9 +21,9 @@
 		margin: 1em auto;
 	}
 
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
+	@media (max-width: 799px) {
+		.hero-div {
+			height: 20em;
 		}
 	}
 </style>
@@ -23,17 +32,16 @@
 	<title>UCSD Theta Tau</title>
 </svelte:head>
 
-<!-- <p>{garnetUnfilled}</p> -->
-
-<section class="hero-section">
+<div class="hero-div">
 	<Hero 
 		titleBig='UCSD Theta Tau' 
 		titleSmall='UCSD ΘΤ' 
 		tagline='Epsilon Delta' 
 		svg={garnetUnfilled}
 		alt='a hero'
-		/>
-</section>
+	/>
+</div>
+<WeAre {brotherLabels}/>
 
 <!-- <h1>Great success!</h1> -->
 
