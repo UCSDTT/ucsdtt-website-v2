@@ -1,4 +1,0 @@
-nav.svelte-1rk4sbn{border-bottom:1px solid rgba(255,62,0,0.1);font-weight:300;padding:0 1em}ul.svelte-1rk4sbn{margin:0;padding:0}ul.svelte-1rk4sbn::after{content:'';display:block;clear:both}li.svelte-1rk4sbn{display:block;float:left}.selected.svelte-1rk4sbn{position:relative;display:inline-block}.selected.svelte-1rk4sbn::after{position:absolute;content:'';width:calc(100% - 1em);height:2px;background-color:maroon;display:block;bottom:-1px}a.svelte-1rk4sbn{text-decoration:none;padding:1em 0.5em;display:block}a.logo.svelte-1rk4sbn{background-image:url(static/icons/garnett.svg);width:100px}
-main.svelte-1uhnsl8{position:relative;max-width:56em;background-color:white;padding:2em;margin:0 auto;box-sizing:border-box}
-h1.svelte-8od9u6,p.svelte-8od9u6{margin:0 auto}h1.svelte-8od9u6{font-size:2.8em;font-weight:700;margin:0 0 0.5em 0}p.svelte-8od9u6{margin:1em auto}@media(min-width: 480px){h1.svelte-8od9u6{font-size:4em}}
-/* sourceMappingURL=client/main.3035032826.css.map */

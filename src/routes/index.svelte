@@ -1,24 +1,11 @@
+<script>
+	import Hero from '../components/Hero.svelte';
+	import { garnetUnfilled } from './shapes.js';
+</script>
+
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
+	.hero-section {
+		background-image: url(images/sigma_fun.jpg);
 	}
 
 	p {
@@ -33,14 +20,87 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>UCSD Theta Tau</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<!-- <p>{garnetUnfilled}</p> -->
 
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
+<section class="hero-section">
+	<Hero 
+		titleBig='UCSD Theta Tau' 
+		titleSmall='UCSD ΘΤ' 
+		tagline='Epsilon Delta' 
+		svg={garnetUnfilled}
+		alt='a hero'
+		/>
+</section>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<!-- <h1>Great success!</h1> -->
+
+<!-- <img alt='fun' src='images/sigma_fun.jpg'> -->
+
+<!-- Leave this here until we can make our own icon that is just an outline -->
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p>Icons from <a href="https://icons8.com/icons">icons8</a></p>
