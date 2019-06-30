@@ -36,11 +36,17 @@
 			display: block;
 		}
 	}
+	@media (max-width: 799px) {
+		h1.text-display {
+			top: 1em;
+			font-size: 4em;
+		}
+	}
 
 	h1.text-display {
 		position: absolute;
 		text-align: center;
-		top: 1.7em;
+		top: 1.9em;
 		left: 0.1em;
 		right: 0.1em;
 		color: white;
