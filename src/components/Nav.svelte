@@ -68,8 +68,6 @@
 		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>About</a></li>
 		<li><a class='{segment === "rush" ? "selected" : ""}' href='rush'>Rush</a></li>
 		<li><a class='{segment === "faq" ? "selected" : ""}' href='faq'>FAQ</a></li>
-		<!-- for the members link, we're using rel=prefetch so that Sapper prefetches
-		     the members data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch class='{segment === "members" ? "selected" : ""}' href='members'>Members</a></li>
+		<li><a class='{segment === "members" ? "selected" : ""}' href='members'>Members</a></li>
 	</ul>
 </nav>

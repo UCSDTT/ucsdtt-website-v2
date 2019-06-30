@@ -1,7 +1,7 @@
 <script>
 	import Hero from '../components/Hero.svelte';
 	import WeAre from '../components/WeAre.svelte';
-	import { garnetUnfilled } from './shapes.js';
+	import { garnetUnfilled } from '../shapes.js';
 
 	const brotherLabels = ['brothers', 'entrepreneurs', 'leaders', 'pioneers',
 					'philanthropists', 'best friends', 'family', 'world changers']
