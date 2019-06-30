@@ -31,15 +31,15 @@
 		display: none;
 	}
 
-	@media (min-width: 800px) {
+	@media (min-width: 1000px) {
 		.parallax {
 			display: block;
 		}
 	}
-	@media (max-width: 799px) {
+	@media (max-width: 999px) {
 		h1.text-display {
 			top: 1em;
-			font-size: 4em;
+			font-size: 3em;
 		}
 	}
 
@@ -51,7 +51,7 @@
 		right: 0.1em;
 		color: white;
 		text-shadow: 0 0 10px black;
-		font-size: 6em;
+		font-size: 5em;
 		padding: 0.1em;
 		background-color: rgba(128, 0, 0, 0.7);
 		z-index: 1;

@@ -21,7 +21,7 @@
 		margin: 1em auto;
 	}
 
-	@media (max-width: 799px) {
+	@media (max-width: 999px) {
 		.hero-div {
 			height: 20em;
 		}

@@ -39,12 +39,12 @@
 </script>
 
 <style>
-    @media (min-width: 800px) {
+    @media (min-width: 1000px) {
         h1 {
             font-size: 4em;
         }
     }
-    @media (max-width: 799px) {
+    @media (max-width: 999px) {
         h1 {
             text-align: center;
             font-size: 2em;
