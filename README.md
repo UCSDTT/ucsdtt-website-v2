@@ -60,7 +60,7 @@ Contains tools and scripts to run in order to expedite menial processes.
 Contains tests. Not really sure how this works yet.
 
 #### `__sapper__`
-Essentially our `dist` or `public` folder. We only need to o
+Essentially our `dist` or `public` folder. This is contained in `__sapper__/export`.
 
 #### `package.json`
 A configuration of our Node project.
