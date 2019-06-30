@@ -40,10 +40,9 @@
 		}
 	}
 	@media (max-width: 999px) {
-		/* h1.text-display {
-			top: 1em;
+		h1.text-display {
 			font-size: 3em;
-		} */
+		}
 	}
 
 	h1.text-display {

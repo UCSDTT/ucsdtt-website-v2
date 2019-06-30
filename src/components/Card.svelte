@@ -33,6 +33,22 @@
         min-width: 100%;
         text-align: center;
     }
+
+    @media (max-width: 1000px) {
+        .wrapper {
+            flex-direction: column;
+        }
+        
+        .wrapper .subcards {
+            font-size: 1em;
+        }
+
+        .left-div {
+            border-right: none;
+            /* border-bottom: 5px dotted #333; */
+        }
+
+    }
     
 </style>
 
