@@ -1,88 +1,74 @@
-# sapper-template
+# UCSD Theta Tau Website v2
+ A new site written in [Svelte3]((https://svelte.dev/)) to be deployed on Netlify to increase performance and make the site modern and sexier.
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, with branches for Rollup and webpack. To clone it and get started:
+ [https://thetatau-ucsd.netlify.com](https://thetatau-ucsd.netlify.com)
 
-```bash
-# for Rollup
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
-cd my-app
-npm install # or yarn!
-npm run dev
-```
+## Getting Started
+1. Install with `npm install`
+2. Build with `npm build`
+3. Run development server with `npm run dev`
+4. Write static site to `__sapper__/export` with `npm run export` (more on this later)
 
-Open up [localhost:3000](http://localhost:3000) and start clicking around.
+## Making Changes 
+You can run the script in tools/deploy.sh to immeidately add/commit/deploy/push your changes. Feel free to run any of the commands in there one by one if you want more fine-tuned control.
 
-Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
+## Todo's:
+- Document existing code.
+- Protect the master branch
+- Add style checks
+- Add tests to Cypress
+- Complete Index
+- Create About page
+- Create Rush page
+- Create FAQ page
+- Create members page
+- Transfer domains
 
+## Project Structure:
+This project is laid out using [Sapper](https://sapper.svelte.dev/). Sapper makes it really easy to export industry-grade static websites built in Svelte.
 
-## Structure
+### Important Directories
+These are the directories that are the most important for adding components/views
 
-Sapper expects to find two directories in the root of your project —  `src` and `static`.
+#### `src`
+All the source code goes in here. We don't use a `public` directory because Sapper puts all our assets into `__sapper__`
 
+##### `components`
+Contains all the Svelte components to reuse across different pages, and even within other components. Learn more in the [Svelte tutorial](https://svelte.dev/tutorial/nested-components).
 
-### src
+##### `routes`
+Contains the routes. If the file name is `x.svelte`, then you will be able to access that component with `[base url]/x`. If you add an underscore in front of the name, it won't be served as a a route.  
+`blog` is currently an example for folders as routes, which we have not implemented yet but will for `members` to use prefetching.
 
-The [src](src) directory contains the entry points for your app — `client.js`, `server.js` and (optionally) a `service-worker.js` — along with a `template.html` file and a `routes` directory.
+##### `scripts`
+Any JS files you want to include that don't really fit any other descriptions.
 
+##### `template.html`
+The base template for every page on the Theta Tau website. Includes a navbar and some styling.
 
-#### src/routes
+#### `static`
+Includes all static files, separated by category. To access a static file anywhere in your code, just leave the `static/` part out, as Sapper will already route and serve all the static pages for your convenience.  
 
-This is the heart of your Sapper app. There are two kinds of routes — *pages*, and *server routes*.
+e.g. `/static/icons/garnett.svg` will be acquired in any source file using `/icons/garnett.svg`.
 
-**Pages** are Svelte components written in `.svelte` files. When a user first visits the application, they will be served a server-rendered version of the route in question, plus some JavaScript that 'hydrates' the page and initialises a client-side router. From that point forward, navigating to other pages is handled entirely on the client for a fast, app-like feel. (Sapper will preload and cache the code for these subsequent pages, so that navigation is instantaneous.)
+There's also a global css file, which describes our core design principles. Discussion about our theme is encouraged.
 
-**Server routes** are modules written in `.js` files, that export functions corresponding to HTTP methods. Each function receives Express `request` and `response` objects as arguments, plus a `next` function. This is useful for creating a JSON API, for example.
+#### `tools`
+Contains tools and scripts to run in order to expedite menial processes.
 
-There are three simple rules for naming the files that define your routes:
+#### `cypress`
+Contains tests. Not really sure how this works yet.
 
-* A file called `src/routes/about.svelte` corresponds to the `/about` route. A file called `src/routes/blog/[slug].svelte` corresponds to the `/blog/:slug` route, in which case `params.slug` is available to the route
-* The file `src/routes/index.svelte` (or `src/routes/index.js`) corresponds to the root of your app. `src/routes/about/index.svelte` is treated the same as `src/routes/about.svelte`.
-* Files and directories with a leading underscore do *not* create routes. This allows you to colocate helper modules and components with the routes that depend on them — for example you could have a file called `src/routes/_helpers/datetime.js` and it would *not* create a `/_helpers/datetime` route
+#### `__sapper__`
+Essentially our `dist` or `public` folder. We only need to o
 
+#### `package.json`
+A configuration of our Node project.
 
-### static
+#### `README.md`
+This file.
 
-The [static](static) directory contains any static assets that should be available. These are served using [sirv](https://github.com/lukeed/sirv).
+## But I don't know Svelte!
+You should definitely try it out. It's super simple compared to most other web frameworks and filters out a lot of boilerplate so the code is a lot more intuitive and quicker to write. Plus the tutorials make it so you can learn it in like a day.
 
-In your [service-worker.js](app/service-worker.js) file, you can import these as `files` from the generated manifest...
-
-```js
-import { files } from '@sapper/service-worker';
-```
-
-...so that you can cache them (though you can choose not to, for example if you don't want to cache very large files).
-
-
-## Bundler config
-
-Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as well as compiling your Svelte components. With webpack, it also provides hot module reloading. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
-
-
-## Production mode and deployment
-
-To start a production version of your app, run `npm run build && npm start`. This will disable live reloading, and activate the appropriate bundler plugins.
-
-You can deploy your application to any environment that supports Node 8 or above. As an example, to deploy to [Now](https://zeit.co/now), run these commands:
-
-```bash
-npm install -g now
-now
-```
-
-
-## Using external components with webpack
-
-When using Svelte components installed from npm, such as [@sveltejs/svelte-virtual-list](https://github.com/sveltejs/svelte-virtual-list), Svelte needs the original component source (rather than any precompiled JavaScript that ships with the component). This allows the component to be rendered server-side, and also keeps your client-side app smaller.
-
-Because of that, it's essential that webpack doesn't treat the package as an *external dependency*. You can either modify the `externals` option under `server` in [webpack.config.js](webpack.config.js), or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
-
-```bash
-npm install -D @sveltejs/svelte-virtual-list
-```
-
-
-## Bugs and feedback
-
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+If you need more convincing, [watch Rich Harris's talk on reactivity](https://www.youtube.com/watch?v=AdNJ3fydeao).
