@@ -52,7 +52,7 @@
   }
 
   p {
-    margin: 1em auto;
+	padding: 0 2em 1em 1em;
   }
 
   @media (max-width: 999px) {
@@ -91,11 +91,27 @@
 
 <Card>
   <h3 slot="header">UC San Diego's premier engineering fraternity</h3>
-  <p slot="left">
-    Lorem ipsoumLorem ipsoumLorem ipsoum Lorem ipsoumLorem ipsoum Lorem
-    ipsoumLorem ipsoumLorem ipsoumLorem ipsoumLorem ipsoum Lorem ipsoumLorem
-    ipsoumLorem ipsoumLorem ipsoumLorem ipsoum Lorem ipsoumLorem ipsoum
-  </p>
+  <section slot="left">
+  	<p>
+		Formed in 1904 with chapters in over 80 campuses, Theta Tau is both the
+		nation's largest and oldest co-ed engineering fraternity. Our brothers 
+		develop each other to not only focus on one aspect of ourselves, but on 
+		many. We strive to be well-rounded people who excel in brotherhood,
+		philanthropy, and professionalism.
+	</p>
+	<p>
+		Brothers help each other with homework, open doors professionally, 
+		provide a support system, improve the world for those in need, and hang 
+		out with each other among many more things. In addition, a deep,
+		multidisciplinary network of alumni are always there to help at any
+		time. Most importantly, Theta Tau has brought people together to form 
+		connections that will last a lifetime.
+	</p>
+	<p>
+		No matter where your interests lie or what kind of engineer you may be,
+		come check us out!
+	</p>
+  </section>
   <figure slot="right">
       <!-- width="1280"
       height="720" -->
