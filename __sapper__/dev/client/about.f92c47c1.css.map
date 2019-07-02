@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "about.f92c47c1.css",
+  "sources": [
+    "../../../../../../src/components/Origin.svelte"
+  ],
+  "sourcesContent": [
+    "<style>\n  .letter {\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n  }\n\n  .letter:before, .letter:after {\n    position: absolute;\n    width: 40%;\n    height: 10px;\n    content: \" \";\n    left: 12px;\n    bottom: 12px;\n    background: transparent;\n    -webkit-transform: skew(-5deg) rotate(-5deg);\n    -moz-transform: skew(-5deg) rotate(-5deg);\n    -ms-transform: skew(-5deg) rotate(-5deg);\n    -o-transform: skew(-5deg) rotate(-5deg);\n    transform: skew(-5deg) rotate(-5deg);\n    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n    z-index: -1;\n  }\n\n  .letter:after {\n    left: auto;\n    right: 12px;\n    -webkit-transform: skew(5deg) rotate(5deg);\n    -moz-transform: skew(5deg) rotate(5deg);\n    -ms-transform: skew(5deg) rotate(5deg);\n    -o-transform: skew(5deg) rotate(5deg);\n    transform: skew(5deg) rotate(5deg);\n  }\n</style>\n\n<!-- Scroll looking thing for the origins of theta tau -->\n<div class=\"letter\">My box</div>"
+  ],
+  "names": [],
+  "mappings": "AACE,OAAO,eAAC,CAAC,AACP,cAAc,CAAE,kBAAkB,CAClC,sBAAsB,CAAE,WAAW,AACrC,CAAC,AAED,sBAAO,OAAO,CAAE,sBAAO,MAAM,AAAC,CAAC,AAC7B,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,GAAG,CACZ,IAAI,CAAE,IAAI,CACV,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,WAAW,CACvB,iBAAiB,CAAE,KAAK,KAAK,CAAC,CAAC,OAAO,KAAK,CAAC,CAC5C,cAAc,CAAE,KAAK,KAAK,CAAC,CAAC,OAAO,KAAK,CAAC,CACzC,aAAa,CAAE,KAAK,KAAK,CAAC,CAAC,OAAO,KAAK,CAAC,CACxC,YAAY,CAAE,KAAK,KAAK,CAAC,CAAC,OAAO,KAAK,CAAC,CACvC,SAAS,CAAE,KAAK,KAAK,CAAC,CAAC,OAAO,KAAK,CAAC,CACpC,kBAAkB,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CACjD,eAAe,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAC9C,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CACzC,OAAO,CAAE,EAAE,AACb,CAAC,AAED,sBAAO,MAAM,AAAC,CAAC,AACb,IAAI,CAAE,IAAI,CACV,KAAK,CAAE,IAAI,CACX,iBAAiB,CAAE,KAAK,IAAI,CAAC,CAAC,OAAO,IAAI,CAAC,CAC1C,cAAc,CAAE,KAAK,IAAI,CAAC,CAAC,OAAO,IAAI,CAAC,CACvC,aAAa,CAAE,KAAK,IAAI,CAAC,CAAC,OAAO,IAAI,CAAC,CACtC,YAAY,CAAE,KAAK,IAAI,CAAC,CAAC,OAAO,IAAI,CAAC,CACrC,SAAS,CAAE,KAAK,IAAI,CAAC,CAAC,OAAO,IAAI,CAAC,AACpC,CAAC"
+}

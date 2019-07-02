@@ -35,10 +35,6 @@
     max-width: 50em;
   }
 
-  :global(body) {
-    background: linear-gradient(white 40em, maroon 55em);
-  }
-
   p {
     padding: 0 2em 1em 1em;
   }

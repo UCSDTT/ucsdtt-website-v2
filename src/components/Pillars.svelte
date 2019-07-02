@@ -1,118 +1,84 @@
-<!-- Displays information on the three pillars. -->
-
-<script>
-    import {fade} from 'svelte/transition';
-    import Modal from './Modal.svelte';
-
-    let broVis = false;
-    let philVis = false;
-    let proVis = false;
-</script>
-
 <style>
-    ul.pillared {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+  .pillars {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0;
+  }
+
+  .pillar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40em;
+    max-width: calc(33vw - 10em);
+    border: 4px maroon solid;
+    margin: 1em;
+    padding: 2em;
+    background-color: white;
+  }
+
+  .pillar img {
+    width: 10em;
+  }
+
+  .pillar h4 {
+    font-size: 1.8em;
+    color: maroon;
+    text-align: center;
+    border-bottom: 3px maroon solid;
+  }
+
+  @media (max-width: 1000px) {
+    .pillars {
+      flex-direction: column;
     }
 
-    ul.pillared li {
-        margin: 0.5em;
-        padding: 10px;
-        font-size: 2em;
-        display: flex;
-        /* justify-items: center; */
-        align-items: center;
+    .pillar {
+      max-width: calc(100vw - 6em);
+      width: 30em;
     }
-    ul.pillared li span {
-        padding-left: 0.5em;
-        color: white;
-    }
-
-    ul.pillared li:hover{
-        cursor: pointer;
-        background-color: rgba(50, 50, 50, 0.5);
-        background-clip: border-box;
-        border-radius: 1em;
-        text-decoration: underline;
-        text-decoration-color: goldenrod;
-    }
-
-    ul.pillared li:hover img {
-        filter: drop-shadow(0 0 0.3em yellow);
-    }
-
-    h2.modal-li {
-        font-size: 2em;
-        margin: initial;
-        padding: 0.2em;
-    }
-
-    li.modal-li {
-        font-size: 1.4em;
-        padding: 0;
-    }
-
-    img[src="icons/pillar-white.png"] {
-        height: 2em;
-        border-radius: 1em;
-    }
-
+  }
 </style>
 
-<ul class="pillared">
-    <li on:click={() => broVis = true}>
-        <img src="icons/pillar-white.png" alt="pillar">
-        <span>Brotherhood</span>
-    </li>
-    <li on:click={() => philVis = true}>
-        <img src="icons/pillar-white.png" alt="pillar">
-        <span>Philanthropy</span>
-    </li>
-    <li on:click={() => proVis = true}>
-        <img src="icons/pillar-white.png" alt="pillar">
-        <span>Professionalism</span>
-    </li>
-</ul>
+<h1>About</h1>
 
-{#if broVis}
-    <Modal on:close="{() => broVis = false}">
-        <h2 class="modal-li" slot="header">Brotherhood</h2>
-        <ul>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-        </ul>
-        <img src="images/sigma_fun.jpg" alt="sigmas having fun" width="100%">
-    </Modal>
-{/if}
+<h3>Theta Tau bases its moral tenets in three pillars:</h3>
 
-{#if philVis}
-    <Modal on:close="{() => philVis = false}">
-        <h2 class="modal-li" slot="header">Philanthropy</h2>
-        <ul>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-        </ul>
-        <img src="images/sigma_fun.jpg" alt="sigmas having fun" width="100%">
-    </Modal>
-{/if}
-
-{#if proVis}
-    <Modal on:close="{() => proVis = false}">
-        <h2 class="modal-li" slot="header">Professionalism</h2>
-        <ul>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-            <li class="modal-li">Lorem ipsum</li>
-        </ul>
-        <img src="images/sigma_fun.jpg" alt="sigmas having fun" width="100%">
-    </Modal>
-{/if}
+<div class="pillars">
+  <div class="pillar">
+    <img src="icons/pillar.png" alt="pillar" />
+    <h4>Brotherhood</h4>
+    <p>
+      We strive to make the group as
+      <strong>closely knit as possible</strong>
+      throughout one’s college years. Our goal is to develop bonds between our
+      brothers that will last a lifetime. We foster an inviting, safe, and
+      social environment in which our members become
+      <strong>lifelong friends</strong>.
+    </p>
+  </div>
+  <div class="pillar">
+    <img src="icons/pillar.png" alt="pillar" />
+    <h4>Philanthropy</h4>
+    <p>
+      For the purpose of our members’ personal growth, as well as our
+      community’s benefits, we are involved in projects that <strong>give back 
+      to the community</strong> around us. Serving alongside brothers will 
+      establish strong bonds and also guarantee a truly <strong>meaningful time
+      through one’s college years</strong>.
+    </p>
+  </div>
+  <div class="pillar">
+    <img src="icons/pillar.png" alt="pillar" />
+    <h4>Professionalism</h4>
+    <p>
+      We also seek to shape up one’s professional interests to prepare them for
+      their <strong>life ahead of college</strong>. We plan various 
+      <strong>networking opportunities</strong> as well as events that provide 
+      a sneak peek at different professional careers. Brothers have gone on 
+      to work at <strong>top companies</strong>, pursue their 
+      <strong>passions</strong>, and help each other <strong>realize
+      their full potential</strong>.
+    </p>
+  </div>
+</div>

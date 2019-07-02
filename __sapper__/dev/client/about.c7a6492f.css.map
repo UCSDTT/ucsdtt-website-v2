@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "about.c7a6492f.css",
+  "sources": [
+    "../../../../../../src/components/Origin.svelte"
+  ],
+  "sourcesContent": [
+    "<style>\n  div.letter {\n    width: 800px;\n    background-color: white;\n    box-shadow: 0 20px 20px 15px grey;\n  }\n</style>\n\n<!-- Scroll looking thing for the origins of theta tau -->\n<div class=\"letter\">My box</div>"
+  ],
+  "names": [],
+  "mappings": "AACE,GAAG,OAAO,eAAC,CAAC,AACV,KAAK,CAAE,KAAK,CACZ,gBAAgB,CAAE,KAAK,CACvB,UAAU,CAAE,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,IAAI,CAAC,IAAI,AACnC,CAAC"
+}
