@@ -1,11 +1,12 @@
 <style>
   @import url("https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap");
   div#letter {
-    width: 800px;
+    width: 900px;
     background-color: white;
     box-shadow: 0 10px 5px 6px black;
     font-family: "Cutive Mono", "Courier New", Courier, monospace;
-    padding: 1.5em;
+    padding: 2em;
+    max-width: calc(100vw - 20em);
   }
 
   div#letter h1#letter-header {
