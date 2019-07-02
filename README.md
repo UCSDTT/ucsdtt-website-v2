@@ -17,6 +17,10 @@ To contribute, please create a separate branch named `<your initials>/<what you 
 would be `wx/readme`. Then, commit with a commit message that follows that should follow the phrase "this commit shoud... ". For example, `add readme file`. Export your project and create a pull request when your code is ready. Finally, await a 
 passing review and your code will be merged and deployed.
 
+### IMPORTANT:
+If you want to make sure your changes were deployed, run `git diff` and see if there are a lot of files that have not
+been committed. If this is the case, run `git add -A` and then follow the normal pipeline.
+
 ## Todo's:
 - Document existing code.
 - Protect the master branch
