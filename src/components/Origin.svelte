@@ -22,6 +22,7 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     width: 80%;
+    border: 3px black solid;
   }
 
   div#letter img {
@@ -41,8 +42,8 @@
     that.
   </p>
   <p>
-    With the help of a Theta Tau alumnus,
     <strong>Jennifer Young</strong>,
+    With the help of a Theta Tau alumnus,
     thirteen founding fathers took the first step towards establishing a
     chapter of the nation's oldest and largest professional engineering
     fraternity on the UCSD campus.

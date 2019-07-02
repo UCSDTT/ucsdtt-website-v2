@@ -5,6 +5,7 @@ body {
 	font-size: 14px;
 	line-height: 1.5;
 	color: #777;
+	background: linear-gradient(white 40em, maroon 55em);
 }
 
 p {
@@ -12,7 +13,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 0.5em 0;
+	margin: 0 0 0.2em 0;
+	/* margin: 0; */
 	font-weight: 400;
 	line-height: 1.2;
 	font-family: 'Offside', sans-serif;
@@ -53,4 +55,5 @@ code {
 
 strong {
 	color: maroon;
+	background-color: gold;
 }

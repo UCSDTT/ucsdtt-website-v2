@@ -26,12 +26,16 @@
         list-style-type: none;
     }
 
+    b {
+        color: maroon;
+    }
+
 </style>
 
 <footer>
     <img class="footer-div" src="images/hamntongs.png" alt="our seal" height="60px">
     <ul class="footer-div">
-        <strong>Contributors:</strong><br>
+        <b>Contributors:</b><br>
         <li><a href="https://github.com/willxu1234"> Will Xu</a></li>
         <li><a href="https://github.com/clarkphan">Clark Phan</a></li>
     </ul>
