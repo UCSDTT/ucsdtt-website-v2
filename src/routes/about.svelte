@@ -12,7 +12,6 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		/* justify-content: space-around; */
 	}
 
 	.pillar {
@@ -20,12 +19,18 @@
 		flex-direction: column;
 		max-width: 15em;
 		border: 2px gold solid;
-		margin: 0 3em;
+		margin: 1em;
 		text-align: center;
 	}
 
 	.pillar img {
 		width: 12em;
+	}
+
+	@media (max-width: 1000px) {
+		.pillars {
+			flex-direction: column;
+		}
 	}
 </style>
 
