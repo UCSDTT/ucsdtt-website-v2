@@ -1,3 +1,5 @@
+<!-- A navbar that shows up on every screen. -->
+
 <script>
 	export let segment;
 </script>

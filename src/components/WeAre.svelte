@@ -1,3 +1,6 @@
+<!-- Displays "We are ..." with a series of different messages passed in as
+brother labels. -->
+
 <script>
     import {fade} from 'svelte/transition';
     import {onMount} from 'svelte';

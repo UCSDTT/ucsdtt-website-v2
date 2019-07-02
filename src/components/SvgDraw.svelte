@@ -1,3 +1,6 @@
+<!-- Draws an SVG with the given parameters. Path refers to the <path> element in
+svgs. -->
+
 <script>
     import {fade} from 'svelte/transition';
     import {onMount} from 'svelte';

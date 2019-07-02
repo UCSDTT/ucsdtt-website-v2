@@ -1,3 +1,6 @@
+<!-- A card to display on any page. Contains a left-div and a right-div, as well as
+a header. Put anything into the slots by using slot. see: index.svelte -->
+
 <script>
     export let section;
 </script>
@@ -22,10 +25,6 @@
     
     .left-div {
         border-right: 5px dotted #333;
-    }
-    
-    .right-div {
-        /* border-right: 2px dotted #333; */
     }
 
     .header {

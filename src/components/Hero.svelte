@@ -1,4 +1,6 @@
 <!-- Taken from https://github.com/sveltejs/site-kit/blob/master/components/ParallaxLogo.svelte -->
+<!-- Draws an SVG along with a big title and a small title. See: index.svelte -->
+
 <script>
 	import { fade, fly } from 'svelte/transition';
 	import { onMount } from 'svelte';

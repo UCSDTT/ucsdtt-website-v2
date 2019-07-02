@@ -1,3 +1,5 @@
+<!-- A footer that displays on every single page. -->
+
 <script>
 </script>
 

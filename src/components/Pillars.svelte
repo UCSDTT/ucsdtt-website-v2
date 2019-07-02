@@ -1,3 +1,5 @@
+<!-- Displays information on the three pillars. -->
+
 <script>
     import {fade} from 'svelte/transition';
     import Modal from './Modal.svelte';
