@@ -8,13 +8,14 @@
   let visible = true;
   let interval;
 
+  // Lowkey a race condition, but we will fix that later
   function nextImage() {
     visible = false;
     setTimeout(() => {
       visible = true;
       index = (index + 1) % images.length;
       image = images[index];
-    }, 300);
+    }, 700);
   }
 
   function prevImage() {
@@ -23,23 +24,31 @@
       visible = true;
       index = (index + images.length - 1) % images.length;
       image = images[index];
-    }, 300);
+    }, 700);
   }
 
   function handleNextClick() {
     clearInterval(interval);
+    if (!visible) {
+      index = (index + 1) % images.length;
+      return;
+    }
     nextImage();
-    interval = setInterval(nextImage, 3000);
+    interval = setInterval(nextImage, 3900);
   }
 
   function handlePrevClick() {
     clearInterval(interval);
+    if (!visible) {
+      index = (index + images.length - 1) % images.length;
+      return;
+    }
     prevImage();
-    interval = setInterval(prevImage, 3000);
+    interval = setInterval(prevImage, 3900);
   }
 
   onMount(() => {
-    interval = setInterval(nextImage, 3000);
+    interval = setInterval(nextImage, 3900);
 
     return () => clearInterval(interval);
   });
@@ -75,8 +84,9 @@
   .carousel-wrapper {
     width: 70vw;
     height: 70vh;
-    background-color: gold;
     border: 7px black solid;
+    background-color: white;
+    /* background: radial-gradient(maroon, gold 60%); */
     box-shadow: 0 0 10px 10px goldenrod;
     padding: 2em;
   }
@@ -108,7 +118,7 @@
   <div class="carousel-wrapper">
     {#if visible}
       <div class="carousel">
-        <img src={image} alt="pillar image" transition:fade="{{duration:100}}" />
+        <img src={image} alt="pillar image" transition:fade="{{duration:500}}" />
       </div>
     {/if}
   </div>
