@@ -1,5 +1,7 @@
 <script>
   export let images;
+  export let caption;
+
   import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
 
@@ -7,6 +9,7 @@
   let index = 0;
   let visible = true;
   let interval;
+  let iw;
 
   // Lowkey a race condition, but we will fix that later
   function nextImage() {
@@ -54,6 +57,8 @@
   });
 </script>
 
+<svelte:window bind:innerWidth={iw} />
+
 <style>
   .button-wrapper {
     display: flex;
@@ -65,7 +70,7 @@
     z-index: 2;
     padding: 0.3em;
     border-radius: 1em;
-    font-size: 2em;
+    font-size: 30px;
     font-weight: 900;
     color: gold;
     border: 3px white solid;
@@ -74,8 +79,8 @@
   }
 
   .button-left {
-    margin: auto 1em auto;
-    }
+    margin: auto 1em auto 0;
+  }
 
   .button-right {
     margin: auto 0 auto 1em;
@@ -83,6 +88,7 @@
 
   .carousel-wrapper {
     width: 70vw;
+    max-width: calc(100vw - 10em);
     height: 70vh;
     border: 7px black solid;
     background-color: white;
@@ -92,12 +98,13 @@
   }
 
   .carousel {
-  position: relative;
+    position: relative;
     width: 70vw;
+    max-width: calc(100vw - 10em);
     height: 70vh;
     overflow: hidden;
   }
-  
+
   .carousel img {
     position: absolute;
     top: -9999px;
@@ -106,26 +113,48 @@
     bottom: -9999px;
     margin: auto;
   }
+
+  .carousel-caption {
+    display: block;
+    width: 70vw;
+    max-width: calc(100vw - 10em);
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px black solid;
+    background-color: white;
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .figure-wrapper {
+    margin: 0;
+  }
 </style>
 
-<div class="button-wrapper">
-  <button 
-    on:click="{handlePrevClick}"
-    class="carousel-button button-left"
-  >
-    &lt;
-  </button>
-  <div class="carousel-wrapper">
-    {#if visible}
-      <div class="carousel">
-        <img src={image} alt="pillar image" transition:fade="{{duration:500}}" />
-      </div>
+<figure class="figure-wrapper">
+  <div class="button-wrapper">
+    {#if iw > 1000}
+      <button on:click={handlePrevClick} class="carousel-button button-left">
+        &lt;
+      </button>
+    {/if}
+    <div class="carousel-wrapper">
+      {#if visible}
+        <div class="carousel">
+          <img
+            src={image}
+            alt="pillar image"
+            transition:fade={{ duration: 500 }} />
+        </div>
+      {/if}
+    </div>
+    {#if iw > 1000}
+      <button on:click={handleNextClick} class="carousel-button button-right">
+        &gt;
+      </button>
     {/if}
   </div>
-  <button
-    on:click="{handleNextClick}" 
-    class="carousel-button button-right"
-  >
-    &gt;
-  </button>
-</div>
+  <figcaption class="carousel-caption">{caption}</figcaption>
+</figure>
+

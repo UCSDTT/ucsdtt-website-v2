@@ -36,6 +36,8 @@
     .pillar {
       max-width: calc(100vw - 6em);
       width: 30em;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 </style>

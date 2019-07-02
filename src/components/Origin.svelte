@@ -7,7 +7,7 @@
     box-shadow: 0 10px 5px 6px black;
     font-family: "Cutive Mono", "Courier New", Courier, monospace;
     padding: 2em;
-    max-width: calc(100vw - 20em);
+    max-width: calc(100vw - 10em);
   }
 
   div#letter h1#letter-header {
