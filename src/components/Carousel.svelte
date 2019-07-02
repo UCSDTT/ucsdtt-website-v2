@@ -116,13 +116,11 @@
 
   .carousel-caption {
     display: block;
-    width: 70vw;
     max-width: calc(100vw - 10em);
-    margin-top: 2em;
     margin-left: auto;
+    margin-top: 1em;
     margin-right: auto;
-    border: 4px black solid;
-    background-color: white;
+    color: white;
     font-size: 1.4em;
     text-align: center;
   }
