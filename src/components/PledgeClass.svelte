@@ -27,9 +27,11 @@
   let classIndex = 0;
   let curClass = pledgeClasses[classIndex];
 
+  let curBrother = curClass.members[0]
+
   let my, mx, sy, sx;
   $: picY = `${my - 140}px`
-  $: picX = `${mx - 58}px`
+  $: picX = `${mx - 55}px`
 
   function handleMouseClick(event) {
 		mx = event.clientX;
@@ -43,6 +45,7 @@
     position: absolute;
     padding: 50px;
     border: 5px maroon dashed;
+    filter: drop-shadow(0 0 3px white);
     z-index: 2;
     cursor: pointer;
     border-radius: 40px;
@@ -51,6 +54,7 @@
   .class-img-container {
     position: absolute;
     top: 180px;
+    left: 70px;
     border: 5px black solid;
   }
 
@@ -61,11 +65,15 @@
   }
 
   .brother-info {
-    padding-top: 100vh;
-    height: 120px
+    padding-top: 150px;
+    margin-left: 800px;
+    z-index: 5;
+    height: 500px;
   }
 
 </style>
+
+<p>mx: {mx} my: {my}</p>
 
 {#if boxVisible}
   <div 
@@ -89,5 +97,6 @@
 </div>
 
 <div class="brother-info">
-  <h3>temp</h3>
+  <h2>Brother: {curBrother.name}</h2>
+  <h3>Major: {curBrother.major}</h3>
 </div>
