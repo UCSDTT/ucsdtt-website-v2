@@ -138,6 +138,6 @@
     <h3>Brother: {curBrother.name}</h3>
     <h4>Major: {curBrother.major}</h4>
   {:else}
-    <h4>Oops! Please try and select a brother again.</h4>
+    <h4>Oops! Please try and select a brother (from this class) again.</h4>
   {/if}
 </div>
