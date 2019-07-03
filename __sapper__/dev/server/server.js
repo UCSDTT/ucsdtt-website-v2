@@ -529,7 +529,7 @@ const Index = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 
 const css$5 = {
 	code: ".cursor-box.svelte-1ct97j0{position:absolute;padding:50px;border:5px maroon dashed;filter:drop-shadow(0 0 3px white);z-index:2;cursor:pointer;border-radius:40px}.class-img-container.svelte-1ct97j0{position:absolute;top:180px;left:70px;border:5px black solid}.class-img-container.svelte-1ct97j0 img.svelte-1ct97j0{background-color:black;cursor:pointer;width:900px}.brother-info.svelte-1ct97j0{padding-top:150px;margin-left:800px;z-index:5;height:500px}",
-	map: "{\"version\":3,\"file\":\"PledgeClass.svelte\",\"sources\":[\"PledgeClass.svelte\"],\"sourcesContent\":[\"<script>\\n  import { elasticOut } from \\\"svelte/easing\\\";\\n\\n  // Contains an array of Javascript objects.\\n  // Each object contains: \\n  // [\\n  //    {\\n  //         className: string\\n  //         image: string (url to image)\\n  //         members: [{\\n  //           name: string\\n  //           major: string\\n  //           pixelLocationX: number (pixel location on class picture)\\n  //           pixelLocationY: number (same but on y axis)\\n  //           linkedIn: string (the url)\\n  //         },\\n  //     ...]\\n  //    },\\n  // ...]\\n  // basically an ar\\n  // order from newest to oldest\\n  export let pledgeClasses;\\n\\n  let visible = true;\\n  let boxVisible = false;\\n\\n  let classIndex = 0;\\n  let curClass = pledgeClasses[classIndex];\\n\\n  let curBrother = curClass.members[0]\\n\\n  let my, mx, sy, sx;\\n  $: picY = `${my - 140}px`\\n  $: picX = `${mx - 55}px`\\n\\n  function handleMouseClick(event) {\\n\\t\\tmx = event.clientX;\\n\\t\\tmy = event.clientY;\\n    boxVisible = true;\\n\\t}\\n</script>\\n\\n<style>\\n  .cursor-box {\\n    position: absolute;\\n    padding: 50px;\\n    border: 5px maroon dashed;\\n    filter: drop-shadow(0 0 3px white);\\n    z-index: 2;\\n    cursor: pointer;\\n    border-radius: 40px;\\n  }\\n\\n  .class-img-container {\\n    position: absolute;\\n    top: 180px;\\n    left: 70px;\\n    border: 5px black solid;\\n  }\\n\\n  .class-img-container img {\\n    background-color: black;\\n    cursor: pointer;\\n    width: 900px;\\n  }\\n\\n  .brother-info {\\n    padding-top: 150px;\\n    margin-left: 800px;\\n    z-index: 5;\\n    height: 500px;\\n  }\\n\\n</style>\\n\\n<p>mx: {mx} my: {my}</p>\\n\\n{#if boxVisible}\\n  <div \\n    class=\\\"cursor-box\\\"\\n    style=\\\"\\n      top: {picY};\\n      left: {picX};\\n    \\\"\\n    on:click={handleMouseClick}\\n  >\\n</div>\\n{/if}\\n\\n<div class=\\\"class-img-container\\\">\\n  <img\\n    on:click={handleMouseClick}\\n    class=\\\"class-img\\\"\\n    src=\\\"{curClass.image}\\\"\\n    alt=\\\"{curClass.className}\\\"\\n  >\\n</div>\\n\\n<div class=\\\"brother-info\\\">\\n  <h2>Brother: {curBrother.name}</h2>\\n  <h3>Major: {curBrother.major}</h3>\\n</div>\"],\"names\":[],\"mappings\":\"AA2CE,WAAW,eAAC,CAAC,AACX,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,GAAG,CAAC,MAAM,CAAC,MAAM,CACzB,MAAM,CAAE,YAAY,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,KAAK,CAAC,CAClC,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,OAAO,CACf,aAAa,CAAE,IAAI,AACrB,CAAC,AAED,oBAAoB,eAAC,CAAC,AACpB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,KAAK,CACV,IAAI,CAAE,IAAI,CACV,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,KAAK,AACzB,CAAC,AAED,mCAAoB,CAAC,GAAG,eAAC,CAAC,AACxB,gBAAgB,CAAE,KAAK,CACvB,MAAM,CAAE,OAAO,CACf,KAAK,CAAE,KAAK,AACd,CAAC,AAED,aAAa,eAAC,CAAC,AACb,WAAW,CAAE,KAAK,CAClB,WAAW,CAAE,KAAK,CAClB,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,KAAK,AACf,CAAC\"}"
+	map: "{\"version\":3,\"file\":\"PledgeClass.svelte\",\"sources\":[\"PledgeClass.svelte\"],\"sourcesContent\":[\"<script>\\n  import { elasticOut } from \\\"svelte/easing\\\";\\n\\n  // Contains an array of Javascript objects.\\n  // Each object contains: \\n  // [\\n  //    {\\n  //         className: string\\n  //         image: string (url to image)\\n  //         members: [{\\n  //           name: string\\n  //           major: string\\n  //           pixelLocationX: number (pixel location on class picture)\\n  //           pixelLocationY: number (same but on y axis)\\n  //           linkedIn: string (the url)\\n  //         },\\n  //     ...]\\n  //    },\\n  // ...]\\n  // basically an ar\\n  // order from newest to oldest\\n  export let pledgeClasses;\\n\\n  let visible = true;\\n  let boxVisible = false;\\n\\n  let classIndex = 0;\\n  let curClass = pledgeClasses[classIndex];\\n\\n  // let curBrother = curClass.members[0]\\n  let curBrother;\\n\\n  let my, mx, sy, sx;\\n  $: picX = `${mx - 55}px`\\n  $: picY = `${my - 140}px`\\n\\n  function handleMouseClick(event) {\\n\\t\\tmx = event.clientX;\\n\\t\\tmy = event.clientY;\\n    boxVisible = true;\\n    curBrother = findNearestBrother();\\n\\n  }\\n\\n  // Finds the closest brother that is also within .cursor-box padding away.\\n  // Returns undefined if none are found.\\n  function findNearestBrother() {\\n    const brothersInRange = curClass.members.filter((member) => {\\n      if (Math.abs(member.pixelLocationX - mx) < 50 &&\\n          Math.abs(member.pixelLocationY - my) < 50) {\\n            return true;\\n      }\\n      return false;\\n    });\\n\\n    if (brothersInRange.lenght === 0) {\\n      return undefined;\\n    } else if (brothersInRange.length === 1) {\\n      return brothersInRange[0];\\n    }\\n\\n    let nearestBrother;\\n    let closestDist = Infinity;\\n    for (member in brothersInRange) {\\n      let dist = Math.sqrt((member.pixelLocationX - mx) ** 2 +\\n                            (member.pixelLocationY - my) ** 2);\\n      if (dist < closestDist) {\\n        closestDist = dist;\\n        nearestBrother = brother;\\n      }\\n    }\\n\\n    return nearestBrother;\\n  }\\n  \\n</script>\\n\\n<style>\\n  .cursor-box {\\n    position: absolute;\\n    padding: 50px;\\n    border: 5px maroon dashed;\\n    filter: drop-shadow(0 0 3px white);\\n    z-index: 2;\\n    cursor: pointer;\\n    border-radius: 40px;\\n  }\\n\\n  .class-img-container {\\n    position: absolute;\\n    top: 180px;\\n    left: 70px;\\n    border: 5px black solid;\\n  }\\n\\n  .class-img-container img {\\n    background-color: black;\\n    cursor: pointer;\\n    width: 900px;\\n  }\\n\\n  .brother-info {\\n    padding-top: 150px;\\n    margin-left: 800px;\\n    z-index: 5;\\n    height: 500px;\\n  }\\n\\n</style>\\n\\n<p>mx: {mx} my: {my}</p>\\n\\n{#if boxVisible}\\n  <div \\n    class=\\\"cursor-box\\\"\\n    style=\\\"\\n      top: {picY};\\n      left: {picX};\\n    \\\"\\n    on:click={handleMouseClick}\\n  >\\n</div>\\n{/if}\\n\\n<div class=\\\"class-img-container\\\">\\n  <img\\n    on:click={handleMouseClick}\\n    class=\\\"class-img\\\"\\n    src=\\\"{curClass.image}\\\"\\n    alt=\\\"{curClass.className}\\\"\\n  >\\n</div>\\n\\n<div class=\\\"brother-info\\\">\\n  {#if curBrother}\\n    <h3>Brother: {curBrother.name}</h3>\\n    <h4>Major: {curBrother.major}</h4>\\n  {:else}\\n    <h4>Oops! Please try and select a brother again.</h4>\\n  {/if}\\n</div>\"],\"names\":[],\"mappings\":\"AA8EE,WAAW,eAAC,CAAC,AACX,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,GAAG,CAAC,MAAM,CAAC,MAAM,CACzB,MAAM,CAAE,YAAY,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,KAAK,CAAC,CAClC,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,OAAO,CACf,aAAa,CAAE,IAAI,AACrB,CAAC,AAED,oBAAoB,eAAC,CAAC,AACpB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,KAAK,CACV,IAAI,CAAE,IAAI,CACV,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,KAAK,AACzB,CAAC,AAED,mCAAoB,CAAC,GAAG,eAAC,CAAC,AACxB,gBAAgB,CAAE,KAAK,CACvB,MAAM,CAAE,OAAO,CACf,KAAK,CAAE,KAAK,AACd,CAAC,AAED,aAAa,eAAC,CAAC,AACb,WAAW,CAAE,KAAK,CAClB,WAAW,CAAE,KAAK,CAClB,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,KAAK,AACf,CAAC\"}"
 };
 
 let classIndex = 0;
@@ -557,7 +557,8 @@ const PledgeClass = create_ssr_component(($$result, $$props, $$bindings, $$slots
   let boxVisible = false;
   let curClass = pledgeClasses[classIndex];
 
-  let curBrother = curClass.members[0];
+  // let curBrother = curClass.members[0]
+  let curBrother;
 
   let my, mx;
 
@@ -565,8 +566,8 @@ const PledgeClass = create_ssr_component(($$result, $$props, $$bindings, $$slots
 
 	$$result.css.add(css$5);
 
-	let picY = `${my - 140}px`;
 	let picX = `${mx - 55}px`;
+	let picY = `${my - 140}px`;
 
 	return `<p>mx: ${escape(mx)} my: ${escape(my)}</p>
 
@@ -581,8 +582,8 @@ const PledgeClass = create_ssr_component(($$result, $$props, $$bindings, $$slots
 	</div>
 
 	<div class="brother-info svelte-1ct97j0">
-	  <h2>Brother: ${escape(curBrother.name)}</h2>
-	  <h3>Major: ${escape(curBrother.major)}</h3>
+	  ${ curBrother ? `<h3>Brother: ${escape(curBrother.name)}</h3>
+	    <h4>Major: ${escape(curBrother.major)}</h4>` : `<h4>Oops! Please try and select a brother again.</h4>` }
 	</div>`;
 });
 
@@ -598,71 +599,70 @@ const Members = create_ssr_component(($$result, $$props, $$bindings, $$slots) =>
 			members: [{
 				name: "Brent Neldner",
 				major: "Computer Science",
-				pixelLocationX: "219px",
-				pixelLocationY: "339px",
+				pixelLocationX: 219,
+				pixelLocationY: 339,
 				linkedIn: "..",
 			}, {
 				name: "Amy Li",
 				major: "Computer Science",
-				pixelLocationX: "317px",
-				pixelLocationY: "374px",
+				pixelLocationX: 317,
+				pixelLocationY: 374,
 				linkedIn: "..",
 			}, {
 				name: "Jordan Luk",
 				major: "Mechanical Engineering",
-				pixelLocationX: "409px",
-				pixelLocationY: "377px",
+				pixelLocationX: 409,
+				pixelLocationY: 377,
 				linkedIn: "..",
 			}, {
 				name: "Austin Le",
 				major: "Data Science",
-				pixelLocationX: "529px",
-				pixelLocationY: "369px",
+				pixelLocationX: 529,
+				pixelLocationY: 369,
 				linkedIn: "..",
 			}, {
 				name: "Barry Cheung",
 				major: "Mechanical Engineering",
-				pixelLocationX: "654px",
-				pixelLocationY: "380px",
+				pixelLocationX: 654,
+				pixelLocationY: 380,
 				linkedIn: "..",
 			}, {
 				name: "Jade Tran",
 				major: "Computer Science",
-				pixelLocationX: "715px",
-				pixelLocationY: "412px",
+				pixelLocationX: 715,
+				pixelLocationY: 412,
 				linkedIn: "..",
 			}, {
 				name: "Jack Lin",
 				major: "Data Science",
-				pixelLocationX: "812px",
-				pixelLocationY: "348px",
+				pixelLocationX: 812,
+				pixelLocationY: 348,
 				linkedIn: "..",
 			}, {
 				name: "Lulu Zhu",
 				major: "Computer Science",
-				pixelLocationX: "451px",
-				pixelLocationY: "476px",
+				pixelLocationX: 451,
+				pixelLocationY: 476,
 				linkedIn: "..",
 			}, {
 				name: "Claire Zhang",
 				major: "Bioengineering",
-				pixelLocationX: "600px",
-				pixelLocationY: "487px",
+				pixelLocationX: 600,
+				pixelLocationY: 487,
 				linkedIn: "..",
 			}, {
 				name: "BaoBao Laosirihongthong",
 				major: "Chemical Engineering",
-				pixelLocationX: "398px",
-				pixelLocationY: "567px",
+				pixelLocationX: 398,
+				pixelLocationY: 567,
 				linkedIn: "..",
 			}, {
 				name: "Ryan Murase",
 				major: "Computer Science",
-				pixelLocationX: "791px",
-				pixelLocationY: "562px",
+				pixelLocationX: 791,
+				pixelLocationY: 562,
 				linkedIn: "..",
-			}, 
-			]
+			}]
 		}
 	];
 

@@ -27,17 +27,52 @@
   let classIndex = 0;
   let curClass = pledgeClasses[classIndex];
 
-  let curBrother = curClass.members[0]
+  // let curBrother = curClass.members[0]
+  let curBrother;
 
   let my, mx, sy, sx;
-  $: picY = `${my - 140}px`
   $: picX = `${mx - 55}px`
+  $: picY = `${my - 140}px`
 
   function handleMouseClick(event) {
 		mx = event.clientX;
 		my = event.clientY;
     boxVisible = true;
-	}
+    curBrother = findNearestBrother();
+
+  }
+
+  // Finds the closest brother that is also within .cursor-box padding away.
+  // Returns undefined if none are found.
+  function findNearestBrother() {
+    const brothersInRange = curClass.members.filter((member) => {
+      if (Math.abs(member.pixelLocationX - mx) < 50 &&
+          Math.abs(member.pixelLocationY - my) < 50) {
+            return true;
+      }
+      return false;
+    });
+
+    if (brothersInRange.lenght === 0) {
+      return undefined;
+    } else if (brothersInRange.length === 1) {
+      return brothersInRange[0];
+    }
+
+    let nearestBrother;
+    let closestDist = Infinity;
+    for (member in brothersInRange) {
+      let dist = Math.sqrt((member.pixelLocationX - mx) ** 2 +
+                            (member.pixelLocationY - my) ** 2);
+      if (dist < closestDist) {
+        closestDist = dist;
+        nearestBrother = brother;
+      }
+    }
+
+    return nearestBrother;
+  }
+  
 </script>
 
 <style>
@@ -97,6 +132,10 @@
 </div>
 
 <div class="brother-info">
-  <h2>Brother: {curBrother.name}</h2>
-  <h3>Major: {curBrother.major}</h3>
+  {#if curBrother}
+    <h3>Brother: {curBrother.name}</h3>
+    <h4>Major: {curBrother.major}</h4>
+  {:else}
+    <h4>Oops! Please try and select a brother again.</h4>
+  {/if}
 </div>
