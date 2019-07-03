@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "members.0a4bae09.css",
+  "sources": [
+    "../../../../../../src/components/PledgeClass.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import { elasticOut } from \"svelte/easing\";\n\n  // Contains an array of Javascript objects.\n  // Each object contains: \n  // [\n  //    {\n  //         className: string\n  //         image: string (url to image)\n  //         members: [{\n  //           name: string\n  //           major: string\n  //           pixelLocationX: number (pixel location on class picture)\n  //           pixelLocationY: number (same but on y axis)\n  //           linkedIn: string (the url)\n  //         },\n  //     ...]\n  //    },\n  // ...]\n  // basically an ar\n  // order from newest to oldest\n  export let pledgeClasses;\n\n  let classIndex = 0;\n  let curClass = pledgeClasses[classIndex];\n</script>\n\n<style>\n  .class-img-container {\n    position: relative;\n    width: 70vw;\n    max-width: calc(100vw - 10em);\n    height: 70vh;\n    overflow: hidden;\n    z-index: 1;\n  }\n\n  .class-img {\n    position: absolute;\n    top: -9999px;\n    left: -9999px;\n    right: -9999px;\n    bottom: -9999px;\n    margin: auto;\n  }\n</style>\n\n<div class=\"class-img-container\">\n  <img\n    class=\"class-img\"\n    src=\"{curClass.image}\"\n    alt=\"{curClass.className}\"\n  >\n</div>\n"
+  ],
+  "names": [],
+  "mappings": "AA4BE,oBAAoB,eAAC,CAAC,AACpB,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,KAAK,KAAK,CAAC,CAAC,CAAC,IAAI,CAAC,CAC7B,MAAM,CAAE,IAAI,CACZ,QAAQ,CAAE,MAAM,CAChB,OAAO,CAAE,CAAC,AACZ,CAAC,AAED,UAAU,eAAC,CAAC,AACV,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,OAAO,CACZ,IAAI,CAAE,OAAO,CACb,KAAK,CAAE,OAAO,CACd,MAAM,CAAE,OAAO,CACf,MAAM,CAAE,IAAI,AACd,CAAC"
+}

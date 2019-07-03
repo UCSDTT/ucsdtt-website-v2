@@ -4,4 +4,4 @@
 
 <h1>Rush Theta Tau!</h1>
 
-<p>This is the 'rush' page. There's not much here.</p>
+<p>Rush is a four step process:</p>

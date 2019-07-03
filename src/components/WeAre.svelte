@@ -61,10 +61,15 @@ brother labels. -->
             font-size: 2em;
         }
     }
+
+    h1#we-are-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 0 10px;
+    }
 </style>
 
 <section>
-    <h1>
+    <h1 id="we-are-container">
         {#if weAreVisible}
             <span class="formal" in:fade>We are </span>
         {/if}

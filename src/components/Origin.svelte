@@ -10,6 +10,12 @@
     max-width: calc(100vw - 10em);
   }
 
+  @media (max-width: 1000px) {
+    div#letter {
+      max-width: calc(100vw - 6em);
+    }
+  }
+
   div#letter h1#letter-header {
     /* Necessary for override */
     font-family: "Cutive Mono", "Courier New", Courier, monospace;

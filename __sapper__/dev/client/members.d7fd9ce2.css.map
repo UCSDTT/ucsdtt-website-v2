@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "members.d7fd9ce2.css",
+  "sources": [
+    "../../../../../../src/components/PledgeClass.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import { elasticOut } from \"svelte/easing\";\n\n  // Contains an array of Javascript objects.\n  // Each object contains: \n  // [\n  //    {\n  //         className: string\n  //         image: string (url to image)\n  //         members: [{\n  //           name: string\n  //           major: string\n  //           pixelLocationX: number (pixel location on class picture)\n  //           pixelLocationY: number (same but on y axis)\n  //           linkedIn: string (the url)\n  //         },\n  //     ...]\n  //    },\n  // ...]\n  // basically an ar\n  // order from newest to oldest\n  export let pledgeClasses;\n\n  let visible = true;\n\n  let classIndex = 0;\n  let curClass = pledgeClasses[classIndex];\n\n  let my, mx, sy, sx;\n\n  function handleMousemove(event) {\n\t\tmx = event.clientX;\n\t\tmy = event.clientY;\n\t}\n</script>\n\n<style>\n  .cursor-box {\n    position: absolute;\n    padding: 40px;\n    border: 3px gray dotted;\n  }\n</style>\n\n<svelte:window bind:scrollY={sy} bind:scrollX={sx} />\n\n<p>mx:{mx}</p>\n<p>my:{my}</p>\n<p>sx:{sx}</p>\n<p>sy:{sy}</p>\n\n<div \n  class=\"cursor-box\"\n  style=\"\n    top: {my + \"px\"};\n    left: {mx + \"px\"};\n  \"\n>\n</div>\n\n<div class=\"class-img-container\">\n  <img\n    on:mousemove={handleMousemove}\n    class=\"class-img\"\n    src=\"{curClass.image}\"\n    alt=\"{curClass.className}\"\n  >\n</div>"
+  ],
+  "names": [],
+  "mappings": "AAqCE,WAAW,eAAC,CAAC,AACX,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,GAAG,CAAC,IAAI,CAAC,MAAM,AACzB,CAAC"
+}
