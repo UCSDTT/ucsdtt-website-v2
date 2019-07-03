@@ -45,6 +45,7 @@
   // Finds the closest brother that is also within .cursor-box padding away.
   // Returns undefined if none are found.
   function findNearestBrother() {
+    // Getting a list of brothers within the padding.
     const brothersInRange = curClass.members.filter((member) => {
       if (Math.abs(member.pixelLocationX - mx) < 50 &&
           Math.abs(member.pixelLocationY - my) < 50) {
@@ -59,6 +60,7 @@
       return brothersInRange[0];
     }
 
+    // If there are multiple brothers, find the closest one.
     let nearestBrother;
     let closestDist = Infinity;
     for (member in brothersInRange) {
