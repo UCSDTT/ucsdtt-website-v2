@@ -59,7 +59,7 @@
   }
 
   #rush-video {
-    max-width: 40vw;
+    max-width: 50vw;
   }
 </style>
 
