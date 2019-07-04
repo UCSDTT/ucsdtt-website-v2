@@ -1,5 +1,6 @@
 <script>
   import { elasticOut } from "svelte/easing";
+  import { fade } from "svelte/transition";
 
   // Contains an array of Javascript objects.
   // Each object contains: 
@@ -35,11 +36,13 @@
   $: picY = `${my - 140}px`
 
   function handleMouseClick(event) {
-		mx = event.clientX;
-		my = event.clientY;
-    boxVisible = true;
-    curBrother = findNearestBrother();
-
+    boxVisible = false;
+    setTimeout(() => {
+      mx = event.clientX;
+      my = event.clientY;
+      boxVisible = true;
+      curBrother = findNearestBrother();
+    }, 150);
   }
 
   // Finds the closest brother that is also within .cursor-box padding away.
@@ -75,7 +78,10 @@
     return nearestBrother;
   }
   
+  let iw;
 </script>
+
+<svelte:window bind:innerWidth={iw}/>
 
 <style>
   .cursor-box {
@@ -102,42 +108,62 @@
   }
 
   .brother-info {
-    padding-top: 150px;
-    margin-left: 800px;
-    z-index: 5;
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+    width: 100em;
+    max-width: calc(100vw - 1100px);
     height: 500px;
+    background-color: white;
+    border: 5px black solid;
+    z-index: 5;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
   }
 
+  div.space-maker {
+    display: block;
+    height: 70vh;
+    width: 100vw;
+  }
 </style>
 
-<p>mx: {mx} my: {my}</p>
+{#if iw > 1300}
+  <p>mx: {mx} my: {my}</p>
 
-{#if boxVisible}
-  <div 
-    class="cursor-box"
-    style="
-      top: {picY};
-      left: {picX};
-    "
-    on:click={handleMouseClick}
-  >
-</div>
-{/if}
+  <div class="space-maker"></div>
 
-<div class="class-img-container">
-  <img
-    on:click={handleMouseClick}
-    class="class-img"
-    src="{curClass.image}"
-    alt="{curClass.className}"
-  >
-</div>
-
-<div class="brother-info">
-  {#if curBrother}
-    <h3>Brother: {curBrother.name}</h3>
-    <h4>Major: {curBrother.major}</h4>
-  {:else}
-    <h4>Oops! Please try and select a brother (from this class) again.</h4>
+  {#if boxVisible}
+    <div 
+      class="cursor-box"
+      transition:fade="{{duration: 100}}"
+      style="
+        top: {picY};
+        left: {picX};
+      "
+      on:click={handleMouseClick}
+    >
+  </div>
   {/if}
-</div>
+
+  <div class="class-img-container">
+    <img
+      on:click={handleMouseClick}
+      class="class-img"
+      src="{curClass.image}"
+      alt="{curClass.className}"
+    >
+  </div>
+
+  <div class="brother-info">
+    {#if curBrother}
+      <h3>Brother: {curBrother.name}</h3>
+      <h4>Major: {curBrother.major}</h4>
+    {:else}
+      <h4>Oops! Please try and select a brother (from this class) again.</h4>
+    {/if}
+  </div>
+{:else}
+  <div>TODO: implement a smaller screen version</div>
+{/if}
