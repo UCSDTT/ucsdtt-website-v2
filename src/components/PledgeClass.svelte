@@ -25,8 +25,8 @@
   let visible = true;
   let boxVisible = false;
 
-  let classIndex = 0;
-  let curClass = pledgeClasses[classIndex];
+  let className = 'upsilon';
+  $: curClass = pledgeClasses[className.toLowerCase()];
 
   // let curBrother = curClass.members[0]
   let curBrother;
@@ -36,13 +36,10 @@
   $: picY = `${my - 140}px`
 
   function handleMouseClick(event) {
-    boxVisible = false;
-    setTimeout(() => {
-      mx = event.clientX;
-      my = event.clientY;
-      boxVisible = true;
-      curBrother = findNearestBrother();
-    }, 150);
+    mx = event.clientX;
+    my = event.clientY;
+    boxVisible = true;
+    curBrother = findNearestBrother();
   }
 
   // Finds the closest brother that is also within .cursor-box padding away.
@@ -127,6 +124,10 @@
     height: 70vh;
     width: 100vw;
   }
+
+  .class-select {
+    font-size: 1.6em;
+  }
 </style>
 
 {#if iw > 1300}
@@ -137,7 +138,6 @@
   {#if boxVisible}
     <div 
       class="cursor-box"
-      transition:fade="{{duration: 100}}"
       style="
         top: {picY};
         left: {picX};
@@ -163,7 +163,17 @@
     {:else}
       <h4>Oops! Please try and select a brother (from this class) again.</h4>
     {/if}
+
+    <select class="class-select" bind:value={className}>
+      {#each Object.keys(pledgeClasses) as key}
+        <option value={key}>
+          {key}
+        </option>
+      {/each}
+    </select>
   </div>
+
+<!-- {#if iw > 1300} -->
 {:else}
   <div>TODO: implement a smaller screen version</div>
 {/if}

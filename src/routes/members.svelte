@@ -1,11 +1,10 @@
 <script>
 	import PledgeClass from '../components/PledgeClass.svelte';
 
-	const pledgeClasses = [
-		{
+	const pledgeClasses = {
+		upsilon: {
 			// Just a proof of concept, definitely want to move tihs to a JSON 
-			// and write a script to expedite this -> parse roster?
-			className: "Upsilon",
+			// and write a script to expedite this -> parse roster
 			image: "images/upsilon_class.jpg",
 			members: [{
 				name: "Brent Neldner",
@@ -74,8 +73,11 @@
 				pixelLocationY: 562,
 				linkedIn: "..",
 			}]
+		},	
+		tau: {
+			image: "images/tau_class.JPG"
 		}
-	]
+	}
 
 </script>
 
