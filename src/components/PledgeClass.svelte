@@ -31,13 +31,13 @@
   // let curBrother = curClass.members[0]
   let curBrother;
 
-  let my, mx, sy, sx;
+  let iw, my, mx, sy, sx;
   $: picX = `${mx - 55}px`
   $: picY = `${my - 140}px`
 
   function handleMouseClick(event) {
     mx = event.clientX;
-    my = event.clientY;
+    my = event.clientY + sy;
     boxVisible = true;
     curBrother = findNearestBrother();
   }
@@ -75,14 +75,14 @@
     return nearestBrother;
   }
   
-  let iw;
 </script>
 
-<svelte:window bind:innerWidth={iw}/>
+<svelte:window bind:innerWidth={iw} bind:scrollY={sy}/>
 
 <style>
   .cursor-box {
     position: absolute;
+    /* position: absolute; */
     padding: 50px;
     border: 5px maroon dashed;
     filter: drop-shadow(0 0 3px white);
@@ -109,7 +109,8 @@
     top: 180px;
     left: 1000px;
     width: 100em;
-    max-width: calc(100vw - 1100px);
+    max-width: calc(100vw - 1130px);
+    margin-right: 70px;
     height: 500px;
     background-color: white;
     border: 5px black solid;
@@ -122,7 +123,6 @@
   div.space-maker {
     display: block;
     height: 70vh;
-    width: 100vw;
   }
 
   .class-select {
@@ -131,6 +131,7 @@
 </style>
 
 {#if iw > 1300}
+  <!-- Eventually change to say class name -->
   <p>mx: {mx} my: {my}</p>
 
   <div class="space-maker"></div>
