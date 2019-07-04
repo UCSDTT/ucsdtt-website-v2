@@ -648,6 +648,15 @@ const Members = create_ssr_component(($$result, $$props, $$bindings, $$slots) =>
 		},	
 		tau: {
 			image: "images/tau_class.JPG"
+		},
+		sigma: {
+			image: "images/sigma_class.jpg"
+		},
+		rho: {
+			image: "images/rho_class.jpg"
+		},
+		pi: {
+			image: "images/pi_class.jpg"
 		}
 	};
 
