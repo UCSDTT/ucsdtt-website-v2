@@ -122,6 +122,16 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .brother-info h4:nth-of-type(1) {
+    font-size: 3vw;
+  }
+
+
+  .brother-info {
+    font-size: 1.4vw;
   }
 
   div.space-maker {
@@ -171,8 +181,19 @@
 
   <div class="brother-info">
     {#if curBrother}
-      <h3>Brother: {curBrother.name}</h3>
-      <h4>Major: {curBrother.major}</h4>
+      {#each Object.keys(curBrother) as key}
+        {#if curBrother[key].length !== 0 && 
+          key !== 'pixelLocationX' &&
+          key !== 'pixelLocationY' &&
+          key !== 'city, state, country' &&
+          key !== 'email' &&
+          key !== 'last updated' &&
+          key !== 'what i do' &&
+          key !== 'phone number'
+        }
+          <h5 class="brother-key">{key}:</h5><h4>{curBrother[key]}</h4>
+        {/if}
+      {/each}
     {:else}
       <h4>Oops! Please try and select a brother (from this class) again.</h4>
     {/if}

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Offside|Expletus+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Lobster|Roboto+Slab|Cutive+Mono&display=swap');
 body {
 	margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: 'Roboto Slab', Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 	color: #777;
@@ -17,14 +17,18 @@ h1, h2, h3, h4, h5, h6 {
 	/* margin: 0; */
 	font-weight: 400;
 	line-height: 1.2;
-	font-family: 'Offside', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Fira Sans', sans-serif;
 }
 
 .formal {
-	font-family: 'Expletus Sans', serif;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
+	font-family: 'Lobster', serif;
 	font-size: 5em;
 }
 
