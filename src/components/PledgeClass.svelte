@@ -5,8 +5,7 @@
   // Contains an array of Javascript objects.
   // Each object contains: 
   // [
-  //    {
-  //         className: string
+  //    className(lowercase) : {
   //         image: string (url to image)
   //         members: [{
   //           name: string
