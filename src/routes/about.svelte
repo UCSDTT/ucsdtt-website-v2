@@ -10,7 +10,6 @@
     'images/ball_is_life.jpg',
     'images/grad19.jpg',
     'images/sigma_fun.jpg',
-    'images/habitat.JPG',
     'images/bubble_soccer.jpg',
   ];
 
