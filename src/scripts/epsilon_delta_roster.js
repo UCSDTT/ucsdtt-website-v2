@@ -45,7 +45,7 @@ export default {
                 "favorite memory": ""
             },
             {
-                "name": "Takahiro  Kuwayama",
+                "name": "Takahiro Kuwayama",
                 "major": "CS 11",
                 "last updated": "2/27/18",
                 "city, state, country": "San Jose, CA, USA",
@@ -2419,7 +2419,7 @@ export default {
                 "name": "Michelle Galgana",
                 "major": "EE 17",
                 "last updated": "5/12/19",
-                "city, state, country": "Seattle,  WA",
+                "city, state, country": "Seattle, WA",
                 "employer": "Boeing ",
                 "position": "MP&P Engineer I",
                 "what i do": "environmental testing in radiation department ",
@@ -2572,7 +2572,9 @@ export default {
                 "email": "anahita.dasgupta@gmail.com",
                 "phone number": "(347) 604-5248",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 745.9412834124886,
+                "pixelLocationY": 524.8303657196759
             },
             {
                 "name": "Hillary Fan",
@@ -2586,7 +2588,9 @@ export default {
                 "email": "h5fan@ucsd.edu",
                 "phone number": "(626) 833-6215",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 641.7889460464402,
+                "pixelLocationY": 515.6941957752856
             },
             {
                 "name": "Allen Gao",
@@ -2600,7 +2604,9 @@ export default {
                 "email": "a3gao@ucsd.edu",
                 "phone number": "(858) 735-0423",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 437.13873929209944,
+                "pixelLocationY": 347.58866879850575
             },
             {
                 "name": "Shangway Hsu",
@@ -2614,7 +2620,9 @@ export default {
                 "email": "shangway.hsu@gmail.com",
                 "phone number": "(408) 368-9917",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 228.83406456000264,
+                "pixelLocationY": 380.4788805983106
             },
             {
                 "name": "Kevin Huo",
@@ -2628,7 +2636,9 @@ export default {
                 "email": "kevinhuo8941@gmail.com",
                 "phone number": "(626) 242-3917",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 784.3131971789276,
+                "pixelLocationY": 365.86100868728624
             },
             {
                 "name": "Aston Khor",
@@ -2642,10 +2652,12 @@ export default {
                 "email": "khoraston@gmail.com",
                 "phone number": "(214) 701-4245",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 228.83406456000264,
+                "pixelLocationY": 517.5214297641637
             },
             {
-                "name": "Jeffrey  Lee",
+                "name": "Jeffrey Lee",
                 "major": "CS 19",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
@@ -2656,7 +2668,9 @@ export default {
                 "email": "lee.jeffrey0714@gmail.com",
                 "phone number": "(818) 451-5582",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 614.3804362132696,
+                "pixelLocationY": 373.16994464279844
             },
             {
                 "name": "Jason Li",
@@ -2670,7 +2684,9 @@ export default {
                 "email": "jzl.java@gmail.com",
                 "phone number": "(510) 386-0704",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 345.7770398481973,
+                "pixelLocationY": 369.5154766650423
             },
             {
                 "name": "Adam Lin",
@@ -2684,7 +2700,9 @@ export default {
                 "email": "adamlin.2009@gmail.com",
                 "phone number": "(408) 324-4042",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 517.5370348027334,
+                "pixelLocationY": 367.68824267616424
             },
             {
                 "name": "Geoffrey Ngo",
@@ -2698,7 +2716,9 @@ export default {
                 "email": "geoff.ngo@gmail.com",
                 "phone number": "(415) 846-5391",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 698.4331997016594,
+                "pixelLocationY": 389.6150505427008
             },
             {
                 "name": "Meghna Satish",
@@ -2712,7 +2732,9 @@ export default {
                 "email": "ranasimba@gmail.com",
                 "phone number": "(510) 364-2894",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 431.6570373254654,
+                "pixelLocationY": 526.6575997085539
             },
             {
                 "name": "Victoria Tam",
@@ -2726,7 +2748,9 @@ export default {
                 "email": "vmtam21@gmail.com",
                 "phone number": "(626) 236-3150",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 544.9455446359041,
+                "pixelLocationY": 517.5214297641637
             },
             {
                 "name": "John Tayag",
@@ -2740,7 +2764,9 @@ export default {
                 "email": "johntayag8@gmail.com",
                 "phone number": "(858) 886-9831",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 828.1668129120006,
+                "pixelLocationY": 533.966535664066
             },
             {
                 "name": "Stephanie Zhu ",
@@ -2754,7 +2780,9 @@ export default {
                 "email": "syzhu2007@gmail.com",
                 "phone number": "(310) 756-4828",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 340.2953378815632,
+                "pixelLocationY": 533.966535664066
             }
         ]
     },
@@ -2773,7 +2801,9 @@ export default {
                 "email": "sah058@ucsd.edu",
                 "phone number": "626-823-5968",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 702.0828393324643,
+                "pixelLocationY": 568.6789185470632
             },
             {
                 "name": "Kakeru Imanaka",
@@ -2787,7 +2817,9 @@ export default {
                 "email": "kimanaka@ucsd.edu",
                 "phone number": "650-799-4809",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 332.97511446596,
+                "pixelLocationY": 376.81599225506847
             },
             {
                 "name": "Angela Joung",
@@ -2801,7 +2833,9 @@ export default {
                 "email": "anjoung@ucsd.edu",
                 "phone number": "425-283-9163",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 393.274891300587,
+                "pixelLocationY": 565.0243866176918
             },
             {
                 "name": "Stacy Kim",
@@ -2815,7 +2849,9 @@ export default {
                 "email": "spk005@ucsd.edu",
                 "phone number": "310-750-7153",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 497.42905128766995,
+                "pixelLocationY": 550.4062589002066
             },
             {
                 "name": "Justin Lee",
@@ -2829,7 +2865,9 @@ export default {
                 "email": "jdl047@ucsd.edu",
                 "phone number": "626-532-6868",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 515.7017109345265,
+                "pixelLocationY": 345.7524708554121
             },
             {
                 "name": "Dat Nguyen",
@@ -2843,7 +2881,9 @@ export default {
                 "email": "datnguyensg225@gmail.com",
                 "phone number": "714-717-5200",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 603.4104772394386,
+                "pixelLocationY": 367.67966243164005
             },
             {
                 "name": "Soyoun Park",
@@ -2857,7 +2897,9 @@ export default {
                 "email": "sop058@ucsd.edu",
                 "phone number": "786-830-0260",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 607.0650091688099,
+                "pixelLocationY": 554.0607908295779
             },
             {
                 "name": "Jerry Qing",
@@ -2871,7 +2913,9 @@ export default {
                 "email": "jerryqing99@gmail.com",
                 "phone number": "408-802-6948",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 431.64747655898594,
+                "pixelLocationY": 362.1978645375831
             },
             {
                 "name": "Huy Tran",
@@ -2885,7 +2929,9 @@ export default {
                 "email": "hmt008@ucsd.edu",
                 "phone number": "714-800-9394",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 795.2734035314332,
+                "pixelLocationY": 371.3341943610114
             },
             {
                 "name": "Erick Wilson",
@@ -2899,7 +2945,9 @@ export default {
                 "email": "e1wilson@ucsd.edu",
                 "phone number": "818-923-8846",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 691.1192435443505,
+                "pixelLocationY": 353.0615347141548
             },
             {
                 "name": "Jun Yin",
@@ -2913,7 +2961,9 @@ export default {
                 "email": "juy103@ucsd.edu",
                 "phone number": "(909) 610-5019",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 225.16642254950577,
+                "pixelLocationY": 349.40700278478346
             }
         ]
     },
@@ -2932,7 +2982,9 @@ export default {
                 "email": "joshua.chao39@gmail.com",
                 "phone number": "(510) 996-8609",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 671.0977029096478,
+                "pixelLocationY": 354.9556018458975
             },
             {
                 "name": "Christopher Diep",
@@ -2946,7 +2998,9 @@ export default {
                 "email": "ChrisLDiep@gmail.com",
                 "phone number": "(714) 913-8190",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 868.3920367534456,
+                "pixelLocationY": 353.1288024584549
             },
             {
                 "name": "Eric Huynh",
@@ -2960,7 +3014,9 @@ export default {
                 "email": "eric.k.huynh@pm.me",
                 "phone number": "(408) 550-4171",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 384.29019908116385,
+                "pixelLocationY": 369.56999694543805
             },
             {
                 "name": "Simon Kim",
@@ -2974,7 +3030,9 @@ export default {
                 "email": "simon.kim02@gmail.com",
                 "phone number": "(760) 678-8784",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 493.8981623277182,
+                "pixelLocationY": 369.56999694543805
             },
             {
                 "name": "Sho Kondo",
@@ -2988,7 +3046,9 @@ export default {
                 "email": "notshokondo@gmail.com",
                 "phone number": "(661) 993-6760",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 181.51546707503826,
+                "pixelLocationY": 380.5307932700935
             },
             {
                 "name": "Clark Phan",
@@ -3002,7 +3062,9 @@ export default {
                 "email": "clarkphan24@gmail.com",
                 "phone number": "(714) 837-1419",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 753.3036753445635,
+                "pixelLocationY": 360.4360000082252
             },
             {
                 "name": "Justin Shieh",
@@ -3016,7 +3078,9 @@ export default {
                 "email": "shieh_justin@yahoo.com",
                 "phone number": "(408) 823-7446",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 276.50903522205203,
+                "pixelLocationY": 340.3412067463569
             },
             {
                 "name": "Erin Songwang",
@@ -3030,7 +3094,9 @@ export default {
                 "email": "Asongwan@ucsd.edu",
                 "phone number": "(626) 808-6919",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 634.5617151607963,
+                "pixelLocationY": 550.4231363022527
             },
             {
                 "name": "Olivia Thai",
@@ -3044,7 +3110,9 @@ export default {
                 "email": "olivia.d.thai@gmail.com",
                 "phone number": "(408) 520-8201",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 448.22817764165393,
+                "pixelLocationY": 586.9591240511043
             },
             {
                 "name": "Peggy Tran",
@@ -3058,7 +3126,9 @@ export default {
                 "email": "ppt003@ucsd.edu",
                 "phone number": "(408) 391-0065",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 545.0485451761103,
+                "pixelLocationY": 583.3055252762191
             },
             {
                 "name": "Scott Tran",
@@ -3072,7 +3142,9 @@ export default {
                 "email": "scotttran97@gmail.com",
                 "phone number": "(626) 512-0103",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 581.5845329249618,
+                "pixelLocationY": 360.4360000082252
             },
             {
                 "name": "William Tzou",
@@ -3086,7 +3158,9 @@ export default {
                 "email": "williamtzou.b@gmail.com",
                 "phone number": "(408) 816-9850",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 333.1398162327718,
+                "pixelLocationY": 623.4951117999556
             },
             {
                 "name": "Jocelyn Wei",
@@ -3100,7 +3174,9 @@ export default {
                 "email": "jsw033@ucsd.edu",
                 "phone number": "(858) 371-9216",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 707.6336906584993,
+                "pixelLocationY": 477.35116080454986
             }
         ]
     },
@@ -3119,7 +3195,9 @@ export default {
                 "email": "ganheather02@gmail.com",
                 "phone number": "(510) 358-5028",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 345.7770398481973,
+                "pixelLocationY": 616.192065163578
             },
             {
                 "name": "Kyle Gillaspy",
@@ -3133,7 +3211,9 @@ export default {
                 "email": "kyle.gillaspy@gmail.com",
                 "phone number": "(530) 391-4467",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 544.9455446359041,
+                "pixelLocationY": 345.7614348096278
             },
             {
                 "name": "Rick Huynh",
@@ -3147,7 +3227,9 @@ export default {
                 "email": "rickduyhuynh98@gmail.com",
                 "phone number": "(714) 406-6716",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 618.0349041910256,
+                "pixelLocationY": 358.55207273177405
             },
             {
                 "name": "Kamran Jahadi",
@@ -3161,7 +3243,9 @@ export default {
                 "email": "Kamz1246@gmail.com",
                 "phone number": "(818) 213-6664",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 400.5940595145387,
+                "pixelLocationY": 331.1435628986035
             },
             {
                 "name": "Darren Jian",
@@ -3175,7 +3259,9 @@ export default {
                 "email": "darrenfoo510@gmail.com",
                 "phone number": "(510) 786-8750",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 331.159167937173,
+                "pixelLocationY": 371.34271065392034
             },
             {
                 "name": "Everett Lin",
@@ -3186,10 +3272,28 @@ export default {
                 "position": "Student",
                 "what i do": "",
                 "big": "Erick Wilson",
-                "email": "everett14lin@gmail.com,(858) 538-5137,,,,,,,\r\nNeha Pusarla,BE 24,Tau,6/26/19,San Diego",
-                "phone number": " CA",
-                "nickname": " US\"",
-                "favorite memory": "UCSD"
+                "email": "everett14lin@gmail.com",
+                "phone number": "(858) 538-5137",
+                "nickname": "",
+                "favorite memory": "",
+                "pixelLocationX": 778.8314952122934,
+                "pixelLocationY": 380.4788805983106
+            },
+            {
+                "name": "Neha Pusarla",
+                "major": "BE 24",
+                "last updated": "6/26/19",
+                "city, state, country": "San Diego, CA, US",
+                "employer": "UCSD",
+                "position": "Student",
+                "what i do": "",
+                "big": "Dat Nguyen",
+                "email": "npusarla98@gmail.com",
+                "phone number": "(408) 960-9304",
+                "nickname": "",
+                "favorite memory": "",
+                "pixelLocationX": 552.2544805914162,
+                "pixelLocationY": 612.5375971858218
             },
             {
                 "name": "Raeek Rahman",
@@ -3203,7 +3307,9 @@ export default {
                 "email": "raeekrahman@gmail.com",
                 "phone number": "(408) 981-4415",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 208.7344906823442,
+                "pixelLocationY": 396.92398649821297
             },
             {
                 "name": "Jonathan Song",
@@ -3217,7 +3323,9 @@ export default {
                 "email": "jonathansong26@gmail.com",
                 "phone number": "(714) 818-3284",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 468.20171710302617,
+                "pixelLocationY": 385.9605825649447
             },
             {
                 "name": "Angelica Jane Tan",
@@ -3231,7 +3339,9 @@ export default {
                 "email": "angelicajane99@gmail.com",
                 "phone number": "(626) 674-0964",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 815.3761749898543,
+                "pixelLocationY": 618.0192991524559
             },
             {
                 "name": "Britney Tran",
@@ -3245,7 +3355,9 @@ export default {
                 "email": "britneyt0001@gmail.com",
                 "phone number": "(858) 951-6244",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 656.4068179574646,
+                "pixelLocationY": 638.1188730301144
             },
             {
                 "name": "Will Xu",
@@ -3259,7 +3371,9 @@ export default {
                 "email": "willxu1234@gmail.com",
                 "phone number": "(510) 269-0349",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 694.7787317239034,
+                "pixelLocationY": 374.99717863167643
             },
             {
                 "name": "Esther Zhao",
@@ -3273,7 +3387,9 @@ export default {
                 "email": "estherzhao.1996@gmail.com",
                 "phone number": "(626) 872-8281",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 437.13873929209944,
+                "pixelLocationY": 596.0924912859196
             }
         ]
     },
@@ -3292,7 +3408,9 @@ export default {
                 "email": "",
                 "phone number": "Jocelyn Wei",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 656.4011902153228,
+                "pixelLocationY": 369.50692839632575
             },
             {
                 "name": "BaoBao Laosirihongthong",
@@ -3306,7 +3424,9 @@ export default {
                 "email": "pornruthail17@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 402.4112211240153,
+                "pixelLocationY": 561.3698546883205
             },
             {
                 "name": "Austin Le",
@@ -3320,7 +3440,9 @@ export default {
                 "email": "austinle324@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 530.319838652012,
+                "pixelLocationY": 364.0251305022687
             },
             {
                 "name": "Amy Li",
@@ -3334,7 +3456,9 @@ export default {
                 "email": "amyyli2000@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 312.87518885441773,
+                "pixelLocationY": 369.50692839632575
             },
             {
                 "name": "Jack Lin",
@@ -3348,7 +3472,9 @@ export default {
                 "email": "okminz@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 811.7187972136044,
+                "pixelLocationY": 345.7524708554121
             },
             {
                 "name": "Jordan Luk",
@@ -3362,7 +3488,9 @@ export default {
                 "email": "jordanluk7@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 406.06575305338663,
+                "pixelLocationY": 371.3341943610114
             },
             {
                 "name": "Ryan Murase",
@@ -3376,7 +3504,9 @@ export default {
                 "email": "rtmurase@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 793.4461375667478,
+                "pixelLocationY": 559.5425887236349
             },
             {
                 "name": "Brent Neldner",
@@ -3390,7 +3520,9 @@ export default {
                 "email": "brentneldner@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 214.2028267613918,
+                "pixelLocationY": 340.27067296135516
             },
             {
                 "name": "Jade Tran",
@@ -3404,7 +3536,9 @@ export default {
                 "email": "tran.jade.62@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 718.5282330146355,
+                "pixelLocationY": 404.22498172535336
             },
             {
                 "name": "Claire Zhang",
@@ -3418,7 +3552,9 @@ export default {
                 "email": "czclairezhang@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 594.2741474160101,
+                "pixelLocationY": 479.14288627746566
             },
             {
                 "name": "Lulu Zhu",
@@ -3432,7 +3568,9 @@ export default {
                 "email": "luluzhu9@gmail.com",
                 "phone number": "",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 449.92013620584265,
+                "pixelLocationY": 471.83382241872295
             }
         ]
     }

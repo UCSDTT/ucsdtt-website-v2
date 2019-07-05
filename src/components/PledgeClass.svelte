@@ -61,12 +61,13 @@
     // If there are multiple brothers, find the closest one.
     let nearestBrother;
     let closestDist = Infinity;
-    for (member in brothersInRange) {
-      let dist = Math.sqrt((member.pixelLocationX - mx) ** 2 +
+    for (let i = 0; i < brothersInRange.length; i++) {
+      const member = brothersInRange[i];
+      const dist = Math.sqrt((member.pixelLocationX - mx) ** 2 +
                             (member.pixelLocationY - my) ** 2);
       if (dist < closestDist) {
         closestDist = dist;
-        nearestBrother = brother;
+        nearestBrother = member;
       }
     }
 
@@ -134,10 +135,7 @@
 </style>
 
 {#if iw > 1300}
-  <!-- Eventually change to say class name -->
-  <p>mx: {mx} my: {my}</p>
-  <h4>
-    class: 
+  <h4>mx: {mx} my: {my} class: 
     <select class="class-select" bind:value={className} on:change={clearBox}>
       {#each Object.keys(pledgeClasses) as key}
         <option value={key}>
