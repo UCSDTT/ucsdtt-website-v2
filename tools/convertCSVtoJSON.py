@@ -2,7 +2,8 @@ import csv
 import json
 
 filename = './static/data/epsilon_delta_roster.csv'
-outfile = './static/data/epsilon_delta_roster.json'
+# outfile = './static/data/epsilon_delta_roster.json'
+outfile = './src/scripts/epsilon_delta_roster.js'
 
 # Read from the CSV
 fields = []
@@ -14,18 +15,21 @@ data = {}
 with open(filename, 'r', newline='') as csvfile:
     csvreader = csv.reader(csvfile)
     fields = csvreader.__next__()
+    # print (f'fields: {fields}')
+    # We don't want to show the website that it is optional.
+    fields[7] = 'what i do'
 
     for row in csvreader:
         rows.append(row)
         
-        # print (f'row: {row}')
 
 for row in rows:
     member = {}
 
-    for i, field in enumerate(fields):
+    # Don't show things like T-shirt size.
+    for i, field in enumerate(fields[:-5]):
         if i == 2:
-            # We don't define class.
+            # We don't define class in member.
             continue
         member[field.lower()] = row[i]
 
@@ -40,4 +44,5 @@ for row in rows:
 json_data = json.dumps(data)
 
 with open(outfile, 'w') as out:
-    json.dump(json_data, out, indent=4)
+    out.write('export default ')
+    json.dump(data, out, indent=4)

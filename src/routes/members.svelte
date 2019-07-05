@@ -1,6 +1,6 @@
 <script>
 	import PledgeClass from '../components/PledgeClass.svelte';
-	import activeData from '../scripts/activeData.js';
+	import activeData from '../scripts/epsilon_delta_roster.js';
 
 	const pledgeClasses = activeData;
 
