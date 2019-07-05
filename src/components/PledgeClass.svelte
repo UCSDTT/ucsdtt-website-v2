@@ -135,7 +135,7 @@
 
 {#if iw > 1300}
   <!-- Eventually change to say class name -->
-  <!-- <p>mx: {mx} my: {my}</p> -->
+  <p>mx: {mx} my: {my}</p>
   <h4>
     class: 
     <select class="class-select" bind:value={className} on:change={clearBox}>
