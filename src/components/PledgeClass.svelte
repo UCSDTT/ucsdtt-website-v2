@@ -72,6 +72,11 @@
 
     return nearestBrother;
   }
+
+  function clearBox() {
+    boxVisible = false;
+    curBrother = undefined;
+  }
   
 </script>
 
@@ -93,13 +98,13 @@
     position: absolute;
     top: 180px;
     left: 70px;
-    border: 5px black solid;
   }
 
   .class-img-container img {
     background-color: black;
     cursor: pointer;
     width: 900px;
+    border: 5px black solid;
   }
 
   .brother-info {
@@ -123,14 +128,25 @@
     height: 70vh;
   }
 
-  .class-select {
-    font-size: 1.6em;
+  h4 .class-select {
+    font-size: 1.2em;
   }
 </style>
 
 {#if iw > 1300}
   <!-- Eventually change to say class name -->
-  <p>mx: {mx} my: {my}</p>
+  <!-- <p>mx: {mx} my: {my}</p> -->
+  <h4>
+    class: 
+    <select class="class-select" bind:value={className} on:change={clearBox}>
+      {#each Object.keys(pledgeClasses) as key}
+        <option value={key}>
+          {key}
+        </option>
+      {/each}
+    </select>
+  </h4>
+
 
   <div class="space-maker"></div>
 
@@ -162,14 +178,6 @@
     {:else}
       <h4>Oops! Please try and select a brother (from this class) again.</h4>
     {/if}
-
-    <select class="class-select" bind:value={className}>
-      {#each Object.keys(pledgeClasses) as key}
-        <option value={key}>
-          {key}
-        </option>
-      {/each}
-    </select>
   </div>
 
 <!-- {#if iw > 1300} -->
