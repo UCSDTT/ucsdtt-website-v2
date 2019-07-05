@@ -67,7 +67,6 @@
   }
 
   .carousel-button {
-    z-index: -1;
     padding: 0.3em;
     border-radius: 1em;
     font-size: 30px;
