@@ -5,9 +5,13 @@
   import Origin from "../components/Origin.svelte";
 
   const images = [
-    'icons/pillar.png',
     'images/pi_fun.jpg',
-    'images/sigma_fun.jpg'
+    'images/opsanta.JPG',
+    'images/ball_is_life.jpg',
+    'images/grad19.jpg',
+    'images/sigma_fun.jpg',
+    'images/habitat.JPG',
+    'images/bubble_soccer.jpg',
   ];
 
   const pillarMsg = "Brothers embodying the spirit of Theta Tau through the" + 

@@ -18,7 +18,7 @@
       visible = true;
       index = (index + 1) % images.length;
       image = images[index];
-    }, 700);
+    }, 600);
   }
 
   function prevImage() {
@@ -27,7 +27,7 @@
       visible = true;
       index = (index + images.length - 1) % images.length;
       image = images[index];
-    }, 700);
+    }, 600);
   }
 
   function handleNextClick() {
@@ -37,7 +37,7 @@
       return;
     }
     nextImage();
-    interval = setInterval(nextImage, 3900);
+    interval = setInterval(nextImage, 4000);
   }
 
   function handlePrevClick() {
@@ -47,11 +47,11 @@
       return;
     }
     prevImage();
-    interval = setInterval(prevImage, 3900);
+    interval = setInterval(nextImage, 4000);
   }
 
   onMount(() => {
-    interval = setInterval(nextImage, 3900);
+    interval = setInterval(nextImage, 4000);
 
     return () => clearInterval(interval);
   });
@@ -142,7 +142,7 @@
           <img
             src={image}
             alt="pillar image"
-            transition:fade={{ duration: 500 }} />
+            transition:fade={{ duration: 300 }} />
         </div>
       {/if}
     </div>

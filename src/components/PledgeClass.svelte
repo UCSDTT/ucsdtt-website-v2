@@ -148,10 +148,12 @@
   h4 .class-select {
     font-size: 1.2em;
   }
+
 </style>
 
 {#if iw > 1300}
-  <h4>mx: {mx} my: {my} class: 
+  <!-- <h4>mx: {mx} my: {my} class:  -->
+  <h4>class: 
     <select class="class-select" bind:value={className} on:change={clearBox}>
       {#each Object.keys(pledgeClasses) as key}
         <option value={key}>
@@ -201,7 +203,7 @@
         {/if}
       {/each}
     {:else}
-      <h4>Hi! Click on a brother (from the class) to see more information.</h4>
+      <h4>Click on a brother (from the class) to see more information.</h4>
     {/if}
   </div>
 
