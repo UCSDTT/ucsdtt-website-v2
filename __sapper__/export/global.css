@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Lobster|Roboto+Slab|Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Play|Roboto+Slab|Cutive+Mono&display=swap');
 body {
 	margin: 0;
 	font-family: 'Roboto Slab', Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -28,7 +28,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-family: 'Lobster', serif;
+	font-family: 'Play', serif;
 	font-size: 5em;
 }
 

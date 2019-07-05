@@ -24,6 +24,7 @@
 <svelte:window bind:scrollY={sy} bind:innerWidth={iw}/>
 
 <style>
+	@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 	.parallax {
 		position: absolute;
 		top: 4em;

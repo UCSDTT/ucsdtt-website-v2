@@ -122,16 +122,22 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .brother-info h4:nth-of-type(1) {
-    font-size: 3vw;
+    font-size: 2.4vw;
+  }
+  .brother-info h5:nth-of-type(1) {
+    font-size: 2vw;
   }
 
 
   .brother-info {
     font-size: 1.4vw;
+  }
+
+  .brother-key {
+    color: maroon;
   }
 
   div.space-maker {
@@ -195,7 +201,7 @@
         {/if}
       {/each}
     {:else}
-      <h4>Oops! Please try and select a brother (from this class) again.</h4>
+      <h4>Hi! Click on a brother (from the class) to see more information.</h4>
     {/if}
   </div>
 
