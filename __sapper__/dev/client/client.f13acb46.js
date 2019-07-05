@@ -1213,8 +1213,8 @@ const components = [
 		css: ["index.e099de39.css","chunk.e0035de7.css"]
 	},
 	{
-		js: () => import('./members.fdeffd48.js'),
-		css: ["members.fdeffd48.css"]
+		js: () => import('./members.9888c011.js'),
+		css: ["members.9888c011.css"]
 	},
 	{
 		js: () => import('./about.433921c1.js'),

@@ -9,10 +9,9 @@
   //         image: string (url to image)
   //         members: [{
   //           name: string
-  //           major: string
   //           pixelLocationX: number (pixel location on class picture)
   //           pixelLocationY: number (same but on y axis)
-  //           linkedIn: string (the url)
+  //          ... any other fields to display
   //         },
   //     ...]
   //    },

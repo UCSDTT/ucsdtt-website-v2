@@ -21,8 +21,8 @@ with open(filename, 'r', newline='') as csvfile:
 
     for row in csvreader:
         rows.append(row)
-        
 
+class_count = 0
 for row in rows:
     member = {}
 
@@ -37,9 +37,10 @@ for row in rows:
 
     if classname not in data:
         data[classname] = {
-            'image': "images/" + classname + "_class.jpg",
+            'image': "images/classes/" + str(class_count) + classname + "_class.jpg",
             'members': list()
         }
+        class_count += 1
     data[classname]['members'].append(member)
 json_data = json.dumps(data)
 
