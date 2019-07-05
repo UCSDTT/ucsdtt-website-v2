@@ -1,12 +1,11 @@
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap");
+  /* @import url("https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap"); */
   div#letter {
     margin-top: 5em;
     width: 900px;
     background-color: white;
-    box-shadow: 0 10px 5px 6px black;
-    font-family: "Cutive Mono", "Courier New", Courier, monospace;
-    padding: 2em;
+    box-shadow: 0 12px 8px 6px rgba(0, 0, 0, 0.3);
+    padding: 2.5em;
     max-width: calc(100vw - 10em);
   }
 
@@ -18,7 +17,6 @@
 
   div#letter h1#letter-header {
     /* Necessary for override */
-    font-family: "Cutive Mono", "Courier New", Courier, monospace;
     font-size: 2em;
   }
 
@@ -51,7 +49,7 @@
   </p>
   <p>
     <strong>Jennifer Young</strong>,
-    With the help of a Theta Tau alumnus,
+    with the help of a Theta Tau alumnus,
     thirteen founding fathers took the first step towards establishing a
     chapter of the nation's oldest and largest professional engineering
     fraternity on the UCSD campus.
