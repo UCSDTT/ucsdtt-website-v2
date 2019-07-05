@@ -43,7 +43,17 @@ for row in rows:
         class_count += 1 
     data[classname]['members'].append(member)
 
-json_data = json.dumps(data)
+with open(outfile_json, 'r') as infile:
+    old_data = json.load(infile)
+    for cl in old_data:
+        for mb in range(len(old_data[cl]['members'])):
+            cur_mb = old_data[cl]['members'][mb]
+            if cl in data:
+                for i in range(len(data[cl]['members'])):
+                    if cur_mb['name'] == data[cl]['members'][i]['name']:
+                        cur_mb.update(data[cl]['members'][i])
+                        break
+    data = old_data
 
 with open(outfile, 'w') as out:
     out.write('export default ')
