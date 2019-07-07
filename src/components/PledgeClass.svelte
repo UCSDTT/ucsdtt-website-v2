@@ -125,10 +125,10 @@
   }
 
   .brother-info h4:nth-of-type(1) {
-    font-size: 2.4vw;
+    font-size: 1.8vw;
   }
   .brother-info h5:nth-of-type(1) {
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
 
 
