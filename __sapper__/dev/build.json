@@ -2,7 +2,7 @@
   "bundler": "rollup",
   "shimport": "1.0.1",
   "assets": {
-    "main": "client.79093c1a.js"
+    "main": "client.431e545d.js"
   },
   "css": {
     "main": "main.1558361966.css",
@@ -12,7 +12,7 @@
         "chunk.e0035de7.css"
       ],
       "members.svelte": [
-        "members.081c8b84.css"
+        "members.cff9cb51.css"
       ],
       "about.svelte": [
         "about.298361b3.css",

@@ -2071,7 +2071,9 @@ var activeData = {
                 "email": "chen.patrick.c@gmail.com",
                 "phone number": "626-272-8126",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 881.165075209095,
+                "pixelLocationY": 325.9481655821681
             },
             {
                 "name": "Azhar Deen",
@@ -2085,7 +2087,9 @@ var activeData = {
                 "email": "ahmdeen@gmail.com",
                 "phone number": "408-569-7878",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 466.4192652555968,
+                "pixelLocationY": 346.04598016141244
             },
             {
                 "name": "Aeri Iamsirithaworn",
@@ -2099,7 +2103,9 @@ var activeData = {
                 "email": "aerii@live.com",
                 "phone number": "949-444-6809",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 303.80967456898304,
+                "pixelLocationY": 419.12894226775575
             },
             {
                 "name": "Thomas Kuo",
@@ -2113,7 +2119,9 @@ var activeData = {
                 "email": "thomasjkuo@hotmail.com",
                 "phone number": "9095689076",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 391.50922909659505,
+                "pixelLocationY": 373.4520909512912
             },
             {
                 "name": "Yutang Lin",
@@ -2127,7 +2135,9 @@ var activeData = {
                 "email": "yutanglin16@gmail.com",
                 "phone number": "(858) 242-6318",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 139.37300982971064,
+                "pixelLocationY": 409.99357200446286
             },
             {
                 "name": "Michael Luo",
@@ -2141,7 +2151,9 @@ var activeData = {
                 "email": "miczluo@gmail.com",
                 "phone number": "510-499-3351",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 778.8489282602144,
+                "pixelLocationY": 349.7001282667297
             },
             {
                 "name": "Woongkee Min",
@@ -2155,7 +2167,9 @@ var activeData = {
                 "email": "wkmin0221@gmail.com",
                 "phone number": "858-531-8715",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 667.3974110480409,
+                "pixelLocationY": 364.3167206879982
             },
             {
                 "name": "Andrew Sie",
@@ -2169,7 +2183,9 @@ var activeData = {
                 "email": "andrewsie326@gmail.com",
                 "phone number": "(626)-617-6556",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 568.7354122044774,
+                "pixelLocationY": 358.83549853002256
             },
             {
                 "name": "Sharon Zheng",
@@ -2183,7 +2199,9 @@ var activeData = {
                 "email": "sharonjzheng@gmail.com",
                 "phone number": "661-350-1381",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 221.59134219934685,
+                "pixelLocationY": 400.8582017411699
             }
         ]
     },
@@ -2202,7 +2220,9 @@ var activeData = {
                 "email": "amanda.bang@gmail.com",
                 "phone number": "858-401-3391",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 724.036706680457,
+                "pixelLocationY": 391.72283147787704
             },
             {
                 "name": "Neal Barrina",
@@ -2216,7 +2236,9 @@ var activeData = {
                 "email": "peternealbarrina@gmail.com",
                 "phone number": "510-203-5233",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 650.9537445741137,
+                "pixelLocationY": 351.5272023193882
             },
             {
                 "name": "Claude-Henry Djongoue",
@@ -2230,7 +2252,9 @@ var activeData = {
                 "email": "claude_djongoue@live.com",
                 "phone number": "925-395-3988",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 347.65945183278905,
+                "pixelLocationY": 307.67742505558226
             },
             {
                 "name": "Conway Hsieh",
@@ -2244,7 +2268,9 @@ var activeData = {
                 "email": "conwayhsieh@gmail.com",
                 "phone number": "858-688-8444",
                 "nickname": "",
-                "favorite memory": "Crossing the Omicrons"
+                "favorite memory": "Crossing the Omicrons",
+                "pixelLocationX": 259.95989730517704,
+                "pixelLocationY": 353.3542763720468
             },
             {
                 "name": "Jaehee Jung",
@@ -2258,7 +2284,9 @@ var activeData = {
                 "email": "jade.jung.203@gmail.com",
                 "phone number": "916-261-0359",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 808.0821131027517,
+                "pixelLocationY": 377.10623905660833
             },
             {
                 "name": "Kevin Ngo",
@@ -2272,7 +2300,9 @@ var activeData = {
                 "email": "ngovkevin@gmail.com",
                 "phone number": "714-422-6438",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 424.39656204444947,
+                "pixelLocationY": 344.21890610875386
             },
             {
                 "name": "Olivia Tran",
@@ -2286,7 +2316,9 @@ var activeData = {
                 "email": "oliviaatran@gmail.com",
                 "phone number": "619-905-1093",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 333.04285941152034,
+                "pixelLocationY": 373.4520909512912
             },
             {
                 "name": "Richard Yuan",
@@ -2300,7 +2332,9 @@ var activeData = {
                 "email": "ryuan1688@gmail.com",
                 "phone number": "510-375-1479",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 568.7354122044774,
+                "pixelLocationY": 333.2564617928024
             },
             {
                 "name": "Kyle Zhu",
@@ -2314,7 +2348,9 @@ var activeData = {
                 "email": "katzhumusic@gmail.com",
                 "phone number": "650-823-5135",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 493.82537604547565,
+                "pixelLocationY": 320.4669434241923
             }
         ]
     },
@@ -2333,7 +2369,9 @@ var activeData = {
                 "email": "yusef.abouremeleh@gmail.com",
                 "phone number": "510-326-3226",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 349.4865258854476,
+                "pixelLocationY": 338.7376839507781
             },
             {
                 "name": "David Deng",
@@ -2347,7 +2385,9 @@ var activeData = {
                 "email": "daviddeng201@gmail.com",
                 "phone number": "415-513-9247",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 225.24549030466403,
+                "pixelLocationY": 364.3167206879982
             },
             {
                 "name": "Alex Fields",
@@ -2361,7 +2401,9 @@ var activeData = {
                 "email": "Atfields43@gmail.com ",
                 "phone number": "8318409724",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 656.4349667320895,
+                "pixelLocationY": 369.79794284597403
             },
             {
                 "name": "Christian Gutierrez",
@@ -2375,7 +2417,9 @@ var activeData = {
                 "email": "gutierrezchristianf@gmail.com",
                 "phone number": "760-460-1-75",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 616.2393375736006,
+                "pixelLocationY": 327.7752396348266
             },
             {
                 "name": "Blake Huynh",
@@ -2389,7 +2433,9 @@ var activeData = {
                 "email": "huynhanhhoang1995@gmail.com",
                 "phone number": "714-837-4099",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 429.87778420242523,
+                "pixelLocationY": 342.3918320560953
             },
             {
                 "name": "Kaiser Kim",
@@ -2403,7 +2449,9 @@ var activeData = {
                 "email": "kpk001@ucsd.edu ",
                 "phone number": "310-702-2101",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 554.1188197832088,
+                "pixelLocationY": 347.873054214071
             },
             {
                 "name": "Claire Li",
@@ -2417,7 +2465,9 @@ var activeData = {
                 "email": "theclaireli@gmail.com",
                 "phone number": "760-274-5955",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 572.3895603097947,
+                "pixelLocationY": 455.6704233209274
             },
             {
                 "name": "Wendy Lin",
@@ -2431,7 +2481,9 @@ var activeData = {
                 "email": "wlin6359@gmail.com",
                 "phone number": "415-810-8373",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 358.6218961487405,
+                "pixelLocationY": 464.8057935842203
             },
             {
                 "name": "Teddy Tea",
@@ -2445,7 +2497,9 @@ var activeData = {
                 "email": "teddytea94@gmail.com",
                 "phone number": "626-242-5988",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 285.5389340423972,
+                "pixelLocationY": 371.62501689863257
             },
             {
                 "name": "Natalie Tiwapong",
@@ -2459,7 +2513,9 @@ var activeData = {
                 "email": "gunganit@gmail.com",
                 "phone number": "6073793819",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 429.87778420242523,
+                "pixelLocationY": 486.7306822161232
             },
             {
                 "name": "Alex Tunchez",
@@ -2473,7 +2529,9 @@ var activeData = {
                 "email": "al.tunchez@gmail.com",
                 "phone number": "(510)294-0275",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 747.7886693650186,
+                "pixelLocationY": 360.66257258268115
             },
             {
                 "name": "Yue (Eunice) Wong",
@@ -2487,7 +2545,9 @@ var activeData = {
                 "email": "eunicewong@live.com",
                 "phone number": "650-575-2768",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 680.186929416651,
+                "pixelLocationY": 488.5577562687819
             },
             {
                 "name": "Jesse Zhou",
@@ -2501,7 +2561,9 @@ var activeData = {
                 "email": "jesse.cy.zhou@gmail.com",
                 "phone number": "408-504-6225",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 831.8340757873133,
+                "pixelLocationY": 388.0686833725598
             }
         ]
     },
@@ -2520,7 +2582,9 @@ var activeData = {
                 "email": "randy.emens@gmail.com",
                 "phone number": "714-401-1291",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 610.7581154156248,
+                "pixelLocationY": 360.66257258268115
             },
             {
                 "name": "Melissa Gomez",
@@ -2534,7 +2598,9 @@ var activeData = {
                 "email": "melgomez95@gmail.com",
                 "phone number": "661-755-0557",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 738.6532991017257,
+                "pixelLocationY": 453.84334926826875
             },
             {
                 "name": "Edward Gunawan",
@@ -2548,7 +2614,9 @@ var activeData = {
                 "email": "edwardgunawan880@yahoo.com",
                 "phone number": "(626) 726-5807",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 696.6305958905782,
+                "pixelLocationY": 351.5272023193882
             },
             {
                 "name": "Chelsea Jan",
@@ -2562,7 +2630,9 @@ var activeData = {
                 "email": "chelsealjan@gmail.com",
                 "phone number": "(510) 579-0089",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 830.0070017346548,
+                "pixelLocationY": 417.30186821509716
             },
             {
                 "name": "Kellie (Ming Ming) Liu",
@@ -2576,7 +2646,9 @@ var activeData = {
                 "email": "kellie.mm.liu@gmail.com",
                 "phone number": "650-690-6361",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 510.2690425194029,
+                "pixelLocationY": 364.3167206879982
             },
             {
                 "name": "Crystal Munive",
@@ -2590,7 +2662,9 @@ var activeData = {
                 "email": "crystalmunive1@gmail.com",
                 "phone number": "(951)250-3968",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 130.23763956641773,
+                "pixelLocationY": 512.3097189533435
             },
             {
                 "name": "Vinesh Nathan",
@@ -2604,7 +2678,9 @@ var activeData = {
                 "email": "vnathan321@gmail.com",
                 "phone number": "(408) 987 - 1777",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 236.20793462061548,
+                "pixelLocationY": 367.97086879331545
             },
             {
                 "name": "David Perez-Aguilar",
@@ -2618,7 +2694,9 @@ var activeData = {
                 "email": "david.przag@gmail.com",
                 "phone number": "(323) 314-5525",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 378.7197107279849,
+                "pixelLocationY": 357.008424477364
             },
             {
                 "name": "Jessica Tran",
@@ -2632,7 +2710,9 @@ var activeData = {
                 "email": "traan.jessicaa@gmail.com",
                 "phone number": "(408) 964-8143",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 227.0725643573226,
+                "pixelLocationY": 459.3245714262446
             },
             {
                 "name": "Terri Tsai",
@@ -2646,7 +2726,9 @@ var activeData = {
                 "email": "terri0716@gmail.com",
                 "phone number": "408 858 7190",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 442.66730257103535,
+                "pixelLocationY": 371.62501689863257
             },
             {
                 "name": "Michael Wang",
@@ -2660,7 +2742,9 @@ var activeData = {
                 "email": "mwang.fre@gmail.com",
                 "phone number": "(510) 825-7708",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 798.9467428394588,
+                "pixelLocationY": 324.1210915295095
             },
             {
                 "name": "Jacob Weber",
@@ -2674,7 +2758,9 @@ var activeData = {
                 "email": "jdweber6@gmail.com",
                 "phone number": "707-280-9519",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 287.3660080950558,
+                "pixelLocationY": 367.97086879331545
             }
         ]
     },
@@ -2693,7 +2779,9 @@ var activeData = {
                 "email": "michael.chin425@gmail.com",
                 "phone number": "425-922-8767",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 820.8554464869327,
+                "pixelLocationY": 472.7223822574911
             },
             {
                 "name": "Adrian Gutierrez",
@@ -2707,7 +2795,9 @@ var activeData = {
                 "email": "adrianjpg@gmail.com",
                 "phone number": "707-332-0493",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 716.7014982282717,
+                "pixelLocationY": 483.68595575840277
             },
             {
                 "name": "Kento Hayworth",
@@ -2721,7 +2811,9 @@ var activeData = {
                 "email": "kento.hayworth@gmail.com",
                 "phone number": "510-676-7937",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 652.7473194729538,
+                "pixelLocationY": 467.2405955070353
             },
             {
                 "name": "Judy Ho",
@@ -2735,7 +2827,9 @@ var activeData = {
                 "email": "jaeeh09@gmail.com",
                 "phone number": "(415) 336-0804",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 612.547549969611,
+                "pixelLocationY": 527.5402497620494
             },
             {
                 "name": "Chetu Khandavilli",
@@ -2749,7 +2843,9 @@ var activeData = {
                 "email": "skchetu.k@gmail.com",
                 "phone number": "(909) 372-5640",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 460.88478320699966,
+                "pixelLocationY": 476.37690675779504
             },
             {
                 "name": "Steven Lee",
@@ -2763,7 +2859,9 @@ var activeData = {
                 "email": "stevenlee973@hotmail.com",
                 "phone number": "949-573-6767",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 287.294869442565,
+                "pixelLocationY": 485.5132180085547
             },
             {
                 "name": "Brendon Lim",
@@ -2777,7 +2875,9 @@ var activeData = {
                 "email": "brendon.xlim@yahoo.com",
                 "phone number": "(562) 292-8446",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 550.420633464445,
+                "pixelLocationY": 459.9315465064275
             },
             {
                 "name": "Audrey Olson",
@@ -2791,7 +2891,9 @@ var activeData = {
                 "email": "audreyh.olson@gmail.com",
                 "phone number": "(510) 517-3113",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 360.3853594486428,
+                "pixelLocationY": 536.6765610128092
             },
             {
                 "name": "Brian Wuerstle",
@@ -2805,7 +2907,9 @@ var activeData = {
                 "email": "brian.wuerstle@gmail.com",
                 "phone number": "650-580-4457",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 338.45821244681946,
+                "pixelLocationY": 463.5860710067314
             },
             {
                 "name": "Daniel Zhang",
@@ -2819,7 +2923,9 @@ var activeData = {
                 "email": "dzkaiten@gmail.com",
                 "phone number": "408-799-9281",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 228.82247743770282,
+                "pixelLocationY": 496.47679150946647
             }
         ]
     },
@@ -2838,7 +2944,9 @@ var activeData = {
                 "email": "rishid97@gmail.com",
                 "phone number": "408-981-6464",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 707.5648441186286,
+                "pixelLocationY": 393.3923952447264
             },
             {
                 "name": "Tyler Ly",
@@ -2852,7 +2960,9 @@ var activeData = {
                 "email": "tylerly96@gmail.com",
                 "phone number": "(858)229-7954",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 623.5106740473916,
+                "pixelLocationY": 373.29248501030014
             },
             {
                 "name": "Brian Lyu",
@@ -2866,7 +2976,9 @@ var activeData = {
                 "email": "brianlyu96@gmail.com",
                 "phone number": "(408)600-8263",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 424.3388362698951,
+                "pixelLocationY": 375.11974957706616
             },
             {
                 "name": "Shawn Macasieb",
@@ -2880,7 +2992,9 @@ var activeData = {
                 "email": "shawnmacasieb@gmail.com",
                 "phone number": "(510) 703-1508",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 519.3565937417284,
+                "pixelLocationY": 367.8106913100021
             },
             {
                 "name": "Syeda Momina Mahmood",
@@ -2894,7 +3008,9 @@ var activeData = {
                 "email": "mominam96@gmail.com",
                 "phone number": "(510) 676-2260",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 652.746907115648,
+                "pixelLocationY": 442.728538547409
             },
             {
                 "name": "Jennie Nguyen",
@@ -2908,7 +3024,9 @@ var activeData = {
                 "email": "jenguyen95@gmail.com",
                 "phone number": "(626) 242-0432",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 561.3836787773469,
+                "pixelLocationY": 466.4829779153673
             },
             {
                 "name": "Esther Park",
@@ -2922,7 +3040,9 @@ var activeData = {
                 "email": "helloeenap@gmail.com",
                 "phone number": "(619) 952-4006",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 391.44807406810673,
+                "pixelLocationY": 461.0011842150692
             },
             {
                 "name": "Marilyn Sun",
@@ -2936,7 +3056,9 @@ var activeData = {
                 "email": "marilyn.sun@yahoo.com",
                 "phone number": "(626) 392-7913",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 473.6749795725778,
+                "pixelLocationY": 493.8919464168576
             },
             {
                 "name": "Sherman Yip",
@@ -2950,7 +3072,9 @@ var activeData = {
                 "email": "syip014@gmail.com",
                 "phone number": "(415)601-1931",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 322.0120205309979,
+                "pixelLocationY": 387.91060154442835
             }
         ]
     },
@@ -2969,7 +3093,9 @@ var activeData = {
                 "email": "alto1020@gmail.com",
                 "phone number": "(650) 722-3660",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 499.2611906015754,
+                "pixelLocationY": 402.69732994207226
             },
             {
                 "name": "Justin Dulay",
@@ -2983,7 +3109,9 @@ var activeData = {
                 "email": "justindulay6@gmail.com",
                 "phone number": "(661) 600-2633",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 835.4747055989423,
+                "pixelLocationY": 439.2422772243947
             },
             {
                 "name": "Michelle Galgana",
@@ -2997,7 +3125,9 @@ var activeData = {
                 "email": "michellelg93@gmail.com",
                 "phone number": "760-215-3619",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 460.88899595513675,
+                "pixelLocationY": 461.1692455937882
             },
             {
                 "name": "Sivleng Kouv",
@@ -3011,7 +3141,9 @@ var activeData = {
                 "email": "sive123@gmail.com",
                 "phone number": "(951)249-2690",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 375.008369841679,
+                "pixelLocationY": 483.09621396318164
             },
             {
                 "name": "Wonjae Lee",
@@ -3025,7 +3157,9 @@ var activeData = {
                 "email": "wonjae1007@gmail.com",
                 "phone number": "(858)465-9974",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 320.1909489181952,
+                "pixelLocationY": 404.52457730618835
             },
             {
                 "name": "Yu Wei (David) Lin",
@@ -3039,7 +3173,9 @@ var activeData = {
                 "email": "lindavid1998@gmail.com",
                 "phone number": "(510)378-9252",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 671.0224428284911,
+                "pixelLocationY": 426.4515456755819
             },
             {
                 "name": "Goutham Marimuthu",
@@ -3053,7 +3189,9 @@ var activeData = {
                 "email": "gouthamsmarimuthu@gmail.com",
                 "phone number": "(925)997-9008",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 407.8988223957692,
+                "pixelLocationY": 410.0063193985368
             },
             {
                 "name": "Aamir Rasheed",
@@ -3067,7 +3205,9 @@ var activeData = {
                 "email": "aamir1rasheed@gmail.com",
                 "phone number": "(510) 648-6538",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 756.903068941949,
+                "pixelLocationY": 426.4515456755819
             },
             {
                 "name": "Mayuki Sasagawa",
@@ -3081,7 +3221,9 @@ var activeData = {
                 "email": "343myuki@gmail.com",
                 "phone number": "(408)605-0499",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 581.4873219868009,
+                "pixelLocationY": 428.278793039698
             },
             {
                 "name": "Fumika Takazawa",
@@ -3095,7 +3237,9 @@ var activeData = {
                 "email": "fumika.takazawa@gmail.com",
                 "phone number": "(408)489-8608",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 669.195195464375,
+                "pixelLocationY": 501.36868760434294
             },
             {
                 "name": "Manwinder (Money) Uppal ",
@@ -3109,7 +3253,9 @@ var activeData = {
                 "email": "mku927@gmail.com",
                 "phone number": "(951)836-2806",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 760.5575636701811,
+                "pixelLocationY": 517.8139138813881
             },
             {
                 "name": "Sze Nga (Rachael) Wong",
@@ -3123,7 +3269,9 @@ var activeData = {
                 "email": "rachaelsnwong@gmail.com",
                 "phone number": "(626)272-9728",
                 "nickname": "",
-                "favorite memory": ""
+                "favorite memory": "",
+                "pixelLocationX": 555.9058588891753,
+                "pixelLocationY": 501.36868760434294
             }
         ]
     },
@@ -3969,8 +4117,8 @@ var activeData = {
             {
                 "name": "Barry Cheung",
                 "major": "MechE 20",
-                "pixelLocationX": 656.4011902153228,
-                "pixelLocationY": 369.50692839632575,
+                "pixelLocationX": 654.5739242506371,
+                "pixelLocationY": 376.08905624690067,
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3995,8 +4143,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 402.4112211240153,
-                "pixelLocationY": 561.3698546883205
+                "pixelLocationX": 400.58395515932966,
+                "pixelLocationY": 564.297450609524
             },
             {
                 "name": "Austin Le",
@@ -4011,8 +4159,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 530.319838652012,
-                "pixelLocationY": 364.0251305022687
+                "pixelLocationX": 528.4925726873263,
+                "pixelLocationY": 361.4709285294153
             },
             {
                 "name": "Amy Li",
@@ -4027,8 +4175,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 312.87518885441773,
-                "pixelLocationY": 369.50692839632575
+                "pixelLocationX": 314.7024548191034,
+                "pixelLocationY": 370.6072583528436
             },
             {
                 "name": "Jack Lin",
@@ -4043,8 +4191,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 811.7187972136044,
-                "pixelLocationY": 345.7524708554121
+                "pixelLocationX": 808.0642652842331,
+                "pixelLocationY": 346.85280081193
             },
             {
                 "name": "Jordan Luk",
@@ -4059,8 +4207,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 406.06575305338663,
-                "pixelLocationY": 371.3341943610114
+                "pixelLocationX": 404.238487088701,
+                "pixelLocationY": 368.77999238815795
             },
             {
                 "name": "Ryan Murase",
@@ -4075,8 +4223,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 793.4461375667478,
-                "pixelLocationY": 559.5425887236349
+                "pixelLocationX": 795.2734035314332,
+                "pixelLocationY": 560.6429186801527
             },
             {
                 "name": "Brent Neldner",
@@ -4091,8 +4239,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 214.2028267613918,
-                "pixelLocationY": 340.27067296135516
+                "pixelLocationX": 217.85735869076314,
+                "pixelLocationY": 339.54373695318736
             },
             {
                 "name": "Jade Tran",
@@ -4107,8 +4255,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 718.5282330146355,
-                "pixelLocationY": 404.22498172535336
+                "pixelLocationX": 713.0464351205784,
+                "pixelLocationY": 407.15257764655695
             },
             {
                 "name": "Claire Zhang",
@@ -4123,8 +4271,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 594.2741474160101,
-                "pixelLocationY": 479.14288627746566
+                "pixelLocationX": 597.9286793453816,
+                "pixelLocationY": 483.89774816335483
             },
             {
                 "name": "Lulu Zhu",
@@ -4139,8 +4287,8 @@ var activeData = {
                 "phone number": "",
                 "nickname": "",
                 "favorite memory": "",
-                "pixelLocationX": 449.92013620584265,
-                "pixelLocationY": 471.83382241872295
+                "pixelLocationX": 455.4019340998996,
+                "pixelLocationY": 471.10688641055515
             }
         ]
     }
