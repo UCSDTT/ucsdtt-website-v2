@@ -209,5 +209,5 @@
 
 <!-- {#if iw > 1300} -->
 {:else}
-  <div>TODO: implement a smaller screen version</div>
+  <div>TODO: implement a version for smaller screen</div>
 {/if}
