@@ -7,8 +7,10 @@
 
 <style>
 	main {
+		overflow-y: scroll;
+    	scroll-behavior: smooth;
 		position: relative;
-		padding: 2em;
+		padding: 6em 2em 2em 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
 		display: flex;

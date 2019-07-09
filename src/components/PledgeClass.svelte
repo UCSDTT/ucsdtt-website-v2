@@ -31,7 +31,7 @@
 
   let iw, my, mx, sy, sx;
   $: picX = `${mx - 55}px`
-  $: picY = `${my - 140}px`
+  $: picY = `${my - 65}px`
 
   function handleMouseClick(event) {
     mx = event.clientX;
@@ -46,7 +46,7 @@
     // Getting a list of brothers within the padding.
     const brothersInRange = curClass.members.filter((member) => {
       if (Math.abs(member.pixelLocationX - mx) < 50 &&
-          Math.abs(member.pixelLocationY - my) < 50) {
+          Math.abs(member.pixelLocationY - my - 65) < 50) {
             return true;
       }
       return false;
@@ -64,7 +64,7 @@
     for (let i = 0; i < brothersInRange.length; i++) {
       const member = brothersInRange[i];
       const dist = Math.sqrt((member.pixelLocationX - mx) ** 2 +
-                            (member.pixelLocationY - my) ** 2);
+                            (member.pixelLocationY - my - 65) ** 2);
       if (dist < closestDist) {
         closestDist = dist;
         nearestBrother = member;
@@ -141,30 +141,37 @@
   }
 
   div.space-maker {
+    padding-top: 650px;
     display: block;
-    height: 70vh;
+
   }
 
   h4 .class-select {
-    font-size: 1.2em;
+    font-size: 1em;
+  }
+
+  div.space-maker h4 {
+    padding: 1em;
+    font-size: 2em;
+    background-color: white;
+    border: 4px black solid;
   }
 
 </style>
 
 {#if iw > 1300}
   <!-- <h4>mx: {mx} my: {my} class:  -->
-  <h4>class: 
-    <select class="class-select" bind:value={className} on:change={clearBox}>
-      {#each Object.keys(pledgeClasses) as key}
-        <option value={key}>
-          {key}
-        </option>
-      {/each}
-    </select>
-  </h4>
-
-
-  <div class="space-maker"></div>
+  <div class="space-maker">
+    <h4>class: 
+      <select class="class-select" bind:value={className} on:change={clearBox}>
+        {#each Object.keys(pledgeClasses) as key}
+          <option value={key}>
+            {key}
+          </option>
+        {/each}
+      </select>
+    </h4>
+  </div>
 
   {#if boxVisible}
     <div 

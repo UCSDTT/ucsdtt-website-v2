@@ -41,7 +41,7 @@
 
   @media (max-width: 999px) {
     .hero-div {
-      height: 20em;
+      height: 25em;
     }
 
     :global(body) {

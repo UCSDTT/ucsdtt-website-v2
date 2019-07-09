@@ -24,10 +24,10 @@
 <svelte:window bind:scrollY={sy} bind:innerWidth={iw}/>
 
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Caudex&display=swap');
 	.parallax {
 		position: absolute;
-		top: 4em;
+		top: 9em;
 		width: 50em;
 		height: 30em;
 		left: 50%;
@@ -51,7 +51,7 @@
 	h1.text-display {
 		/* position: relative; */
 		text-align: center;
-		margin-top: 2em;
+		margin-top: 3em;
 		padding: 3em 5em 0 5em;
 		/* top: 1.9em;
 		left: 3.5em;
@@ -64,6 +64,7 @@
 		background-color: rgba(128, 0, 0, 0.7);
 		filter: drop-shadow(0 0 0.3em yellow);
 		z-index: 1;
+		font-family: 'Caudex', sans-serif;
 	}
 
 
@@ -89,7 +90,7 @@
 		<path
 			d={svg}
 			opacity="0.6" 
-			in:fly="{{y: -5, delay: 250}}"
+			in:fly="{{y: 10, duration: 400}}"
 		/>
 	</svg>
 {/if}

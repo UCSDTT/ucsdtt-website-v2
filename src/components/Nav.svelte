@@ -1,8 +1,22 @@
 <!-- A navbar that shows up on every screen. -->
 
 <script>
+	import { fly } from 'svelte/transition';
+
 	export let segment;
+
+	let visible = true;
+
+	let lastScroll = 0;
+	function handleScroll() {
+		const scroll = window.pageYOffset;
+    console.log(scroll)
+    visible = scroll < lastScroll
+    lastScroll = scroll;
+	}
 </script>
+
+<svelte:window on:scroll={handleScroll}/>
 
 <style>
 	nav {
@@ -10,11 +24,11 @@
 		font-weight: 300;
 		padding: 0 1em;
 		display: flex;
-		position: -webkit-sticky;
-		position: sticky;
+		position: fixed;
+    width: 100%;
 		top: 0px;
-		background-color: white;
-		z-index: 2;
+		background-color: rgba(255, 255, 255, 0.4);
+    z-index: 2;;
 	}
 
 	ul {
@@ -77,13 +91,15 @@
 	
 </style>
 
-<nav>
-	<ul>
-		<li><a id='letters' href='.'>Θ Τ</a></li>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>Home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>About</a></li>
-		<li><a class='{segment === "rush" ? "selected" : ""}' href='rush'>Rush</a></li>
-		<li><a class='{segment === "faq" ? "selected" : ""}' href='faq'>FAQ</a></li>
-		<li><a class='{segment === "members" ? "selected" : ""}' href='members'>Members</a></li>
-	</ul>
-</nav>
+{#if visible}
+	<nav transition:fly="{{y: -50, duration: 500}}">
+		<ul>
+			<li><a id='letters' href='.'>Θ Τ</a></li>
+			<li><a class='{segment === undefined ? "selected" : ""}' href='.'>Home</a></li>
+			<li><a class='{segment === "about" ? "selected" : ""}' href='about'>About</a></li>
+			<li><a class='{segment === "rush" ? "selected" : ""}' href='rush'>Rush</a></li>
+			<li><a class='{segment === "faq" ? "selected" : ""}' href='faq'>FAQ</a></li>
+			<li><a class='{segment === "members" ? "selected" : ""}' href='members'>Members</a></li>
+		</ul>
+	</nav>
+{/if}
