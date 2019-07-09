@@ -11,6 +11,7 @@ MAJOR_MAP = {
     'AE' : 'Aerospace Engineering',
     'BE' : 'Bioengineering',
     'CE' : 'Computer Engineering',
+    'CoE' : 'Computer Engineering',
     'COGS' : 'Cognitive Science',
     'Chem' : 'Chemistry',
     'ChemE' : 'Chemical Engineering',
@@ -20,9 +21,12 @@ MAJOR_MAP = {
     'EE' : 'Electrical Engineering',
     'EnvE' : 'Environmental Engineering',
     'EnE' : 'Environmental Engineering',
+    'ES' : '',
     'M-CS' : 'Math-CS',
+    'ME' : 'Mechanical Engineering',
     'MechE' : 'Mechanical Engineering',
     'Nano' : 'Nanoengineering',
+    'NE' : 'Nanoengineering',
     'Phys' : 'Physics',
     'SE' : 'Structural Engineering'
 }
@@ -33,11 +37,12 @@ with open(infile, 'r') as fp:
     data = json.load(fp)
 
 for pledge_class in data:
-    for member in data[pledge_class]:
-        curActive = data[pledge_class][member]
-        major = curActive['major']
-        if major in MAJOR_MAP:
-            curActive['major'] = MAJOR_MAP[major]
+    for member in data[pledge_class]['members']:
+        if len(member['major']) != 0:
+            major = member['major'].split()[0]
+            major = major.rstrip('0123456789')
+            if major in MAJOR_MAP:
+                member['major'] = MAJOR_MAP[major]
 
 with open(infile, 'w') as out:
     json.dump(data, out, indent=4)

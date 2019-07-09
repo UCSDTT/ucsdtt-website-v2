@@ -4,7 +4,7 @@ export default {
         "members": [
             {
                 "name": "Errynne Bell",
-                "major": "SE 10",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Seattle, WA, USA",
                 "employer": "Skyline Steel",
@@ -18,7 +18,7 @@ export default {
             },
             {
                 "name": "Amelia Chu",
-                "major": "EE 11",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "Becton Dickinson ",
@@ -32,7 +32,7 @@ export default {
             },
             {
                 "name": "Chuong Do",
-                "major": "BE 10",
+                "major": "Bioengineering",
                 "last updated": "3/11/18",
                 "city, state, country": "Sunnyvale, CA, USA",
                 "employer": "Astreya",
@@ -46,7 +46,7 @@ export default {
             },
             {
                 "name": "Takahiro Kuwayama",
-                "major": "CS 11",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Jose, CA, USA",
                 "employer": "Cisco Systems",
@@ -60,7 +60,7 @@ export default {
             },
             {
                 "name": "Christopher Lam",
-                "major": "CS 12",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Redwood City, CA, USA",
                 "employer": "Informatica LLC",
@@ -74,7 +74,7 @@ export default {
             },
             {
                 "name": "Alan Leung",
-                "major": "ME 10",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "El Segundo, CA, USA",
                 "employer": "Space and Missile Systems Center - Dept of Defense",
@@ -88,7 +88,7 @@ export default {
             },
             {
                 "name": "Scott Louie",
-                "major": "CS 12",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Gatos, CA, USA",
                 "employer": "Netflix",
@@ -102,7 +102,7 @@ export default {
             },
             {
                 "name": "Michelle Mojica",
-                "major": "AE 10",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "GA-ASI",
@@ -116,7 +116,7 @@ export default {
             },
             {
                 "name": "John Nguyen",
-                "major": "AE 10",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "El Segundo, CA, USA",
                 "employer": "ITG",
@@ -130,7 +130,7 @@ export default {
             },
             {
                 "name": "Joe Shao",
-                "major": "BE 10",
+                "major": "Bioengineering",
                 "last updated": "3/11/18",
                 "city, state, country": "Sunnyvale, CA, USA",
                 "employer": "Elekta",
@@ -144,7 +144,7 @@ export default {
             },
             {
                 "name": "Best Tech",
-                "major": "SE 12",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA",
                 "employer": "OPAC Consulting Engineers",
@@ -158,7 +158,7 @@ export default {
             },
             {
                 "name": "Ashay Verma",
-                "major": "CS 11",
+                "major": "Computer Science",
                 "last updated": "3/11/18",
                 "city, state, country": "Santa Clara, CA, USA",
                 "employer": "Visa",
@@ -172,7 +172,7 @@ export default {
             },
             {
                 "name": "Xiumei Wu",
-                "major": "SE 12",
+                "major": "Structural Engineering",
                 "last updated": "3/11/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "General Atomics",
@@ -191,7 +191,7 @@ export default {
         "members": [
             {
                 "name": "Frank Buchanan",
-                "major": "ME 12",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Carlsbad, CA",
                 "employer": "Viasat Inc.",
@@ -205,7 +205,7 @@ export default {
             },
             {
                 "name": "Andrew Chen",
-                "major": "AE 13",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "Workday",
@@ -219,7 +219,7 @@ export default {
             },
             {
                 "name": "Andrew (Cheese) Chen",
-                "major": "CS 12",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Menlo Park",
                 "employer": "CS 25",
@@ -233,7 +233,7 @@ export default {
             },
             {
                 "name": "Kurtis Cheng",
-                "major": "CS 12",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Jose, Ca",
                 "employer": "Roblox",
@@ -247,7 +247,7 @@ export default {
             },
             {
                 "name": "Min (Paul) Kim",
-                "major": "ME 10",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -261,7 +261,7 @@ export default {
             },
             {
                 "name": "Yeon (Eddy) Kim",
-                "major": "BE 12",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Illumina",
@@ -275,7 +275,7 @@ export default {
             },
             {
                 "name": "Scott Kwang",
-                "major": "EE 12",
+                "major": "Electrical Engineering",
                 "last updated": "3/11/18",
                 "city, state, country": "Mountain View, CA, USA",
                 "employer": "Zanbato, Inc.",
@@ -289,7 +289,7 @@ export default {
             },
             {
                 "name": "Vivian Li",
-                "major": "SE 12",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -303,7 +303,7 @@ export default {
             },
             {
                 "name": "Leoniel Lopez",
-                "major": "CS 11",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA, USA",
                 "employer": "DreamWorks Animation Studios",
@@ -317,7 +317,7 @@ export default {
             },
             {
                 "name": "Lorna Nguyen",
-                "major": "CS 12",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "Innova Systems International, LLC",
@@ -331,7 +331,7 @@ export default {
             },
             {
                 "name": "Hyung O",
-                "major": "AE 12",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -345,7 +345,7 @@ export default {
             },
             {
                 "name": "Benjamin Ou",
-                "major": "BE 12",
+                "major": "Bioengineering",
                 "last updated": "3/11/18",
                 "city, state, country": "South San Francisco, CA, USA",
                 "employer": "Abbvie Stemcentrx",
@@ -359,7 +359,7 @@ export default {
             },
             {
                 "name": "Camille Paras",
-                "major": "AE 12",
+                "major": "Aerospace Engineering",
                 "last updated": "3/11/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "General Atomics Aeronautical Systems",
@@ -373,7 +373,7 @@ export default {
             },
             {
                 "name": "Taraneh Saeidi",
-                "major": "SE 12",
+                "major": "Structural Engineering",
                 "last updated": "3/11/18",
                 "city, state, country": "Scottsdale, AZ, USA",
                 "employer": "Willis Engineering, Inc",
@@ -387,7 +387,7 @@ export default {
             },
             {
                 "name": "Tida Sooreechine",
-                "major": "ME 11",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "Pariveda Solutions",
@@ -401,7 +401,7 @@ export default {
             },
             {
                 "name": "Robert Tran",
-                "major": "CS 12",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "General Atomics",
@@ -415,7 +415,7 @@ export default {
             },
             {
                 "name": "Kevin Wei",
-                "major": "SE 13",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Fuscoe Engineering ",
@@ -429,7 +429,7 @@ export default {
             },
             {
                 "name": "Veronica Wu",
-                "major": "AE 12",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Denver, CO, USA",
                 "employer": "Lockheed Martin",
@@ -448,7 +448,7 @@ export default {
         "members": [
             {
                 "name": "Yan (Jason) Chu",
-                "major": "EE 13",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego",
                 "employer": "Lockheed Martin",
@@ -462,7 +462,7 @@ export default {
             },
             {
                 "name": "Bendy Guan",
-                "major": "SE 13",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -476,7 +476,7 @@ export default {
             },
             {
                 "name": "Davis Kim",
-                "major": "CE 12",
+                "major": "Computer Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA",
                 "employer": "Etsy",
@@ -490,7 +490,7 @@ export default {
             },
             {
                 "name": "Sheung (John) Lee",
-                "major": "ME 13",
+                "major": "Mechanical Engineering",
                 "last updated": "5/16/19",
                 "city, state, country": "",
                 "employer": "Fluid Components International",
@@ -504,7 +504,7 @@ export default {
             },
             {
                 "name": "Sang Park",
-                "major": "CS 12",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA ",
                 "employer": "Stealth AI",
@@ -518,7 +518,7 @@ export default {
             },
             {
                 "name": "Elaine Thai",
-                "major": "SE 12",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA ",
                 "employer": "Asplundh Construction",
@@ -532,7 +532,7 @@ export default {
             },
             {
                 "name": "Stephanie Yung",
-                "major": "ME 12",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "El Segundo, CA, USA",
                 "employer": "Raytheon",
@@ -551,7 +551,7 @@ export default {
         "members": [
             {
                 "name": "Taya Chiang",
-                "major": "SE 14",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "SDSU ",
@@ -565,7 +565,7 @@ export default {
             },
             {
                 "name": "Caroline Kim",
-                "major": "ME 13",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Irvine, CA, USA",
                 "employer": "Jenavalve Technologies",
@@ -579,7 +579,7 @@ export default {
             },
             {
                 "name": "Richard La",
-                "major": "ME 11",
+                "major": "Mechanical Engineering",
                 "last updated": "5/15/19",
                 "city, state, country": "San Diego",
                 "employer": "Solar Turbines",
@@ -593,7 +593,7 @@ export default {
             },
             {
                 "name": "Daniel Ng",
-                "major": "Econ 13",
+                "major": "Economics",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -607,7 +607,7 @@ export default {
             },
             {
                 "name": "Scott Ngo",
-                "major": "CS 13",
+                "major": "Computer Science",
                 "last updated": "5/16/19",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "Hunter Industries",
@@ -621,7 +621,7 @@ export default {
             },
             {
                 "name": "Masaki Sono",
-                "major": "CoE 13",
+                "major": "Computer Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "ID Analytics",
@@ -635,7 +635,7 @@ export default {
             },
             {
                 "name": "Thien Vo",
-                "major": "CS 13",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA, USA",
                 "employer": "Self-Employed (PPeony LLC)",
@@ -649,7 +649,7 @@ export default {
             },
             {
                 "name": "Melvin Wong",
-                "major": "ME 13",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "Video Producer & Photographer",
@@ -668,7 +668,7 @@ export default {
         "members": [
             {
                 "name": "Tyler Day",
-                "major": "BE 14",
+                "major": "Bioengineering",
                 "last updated": "5/16/19",
                 "city, state, country": "Seattle, WA",
                 "employer": "Univ. of Washington",
@@ -687,7 +687,7 @@ export default {
         "members": [
             {
                 "name": "Daniel Arias",
-                "major": "AE 13",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -701,7 +701,7 @@ export default {
             },
             {
                 "name": "Tracey Dinh ",
-                "major": "SE 13",
+                "major": "Structural Engineering",
                 "last updated": "5/16/19",
                 "city, state, country": "Los Angeles, CA",
                 "employer": "Los Angeles Department of Water and Power",
@@ -715,7 +715,7 @@ export default {
             },
             {
                 "name": "Branden Hui",
-                "major": "BE 15",
+                "major": "Bioengineering",
                 "last updated": "5/16/19",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "Clever Inc.",
@@ -729,7 +729,7 @@ export default {
             },
             {
                 "name": "Mayuko Inoue",
-                "major": "CS 14",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "Patreon",
@@ -743,7 +743,7 @@ export default {
             },
             {
                 "name": "Gurpal Kapoor",
-                "major": "CE 14",
+                "major": "Computer Engineering",
                 "last updated": "5/21/19",
                 "city, state, country": "Milpitas, CA, USA",
                 "employer": "Smart Fuel Inc.",
@@ -757,7 +757,7 @@ export default {
             },
             {
                 "name": "Gary Lui",
-                "major": "SE 14",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA",
                 "employer": "Hensel Phelps",
@@ -771,7 +771,7 @@ export default {
             },
             {
                 "name": "Matthew McCaw",
-                "major": "NE 15",
+                "major": "Nanoengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "Cyth Systems, Inc. ",
@@ -785,7 +785,7 @@ export default {
             },
             {
                 "name": "An (Annie) Ng",
-                "major": "CE 12",
+                "major": "Computer Engineering",
                 "last updated": "5/16/19",
                 "city, state, country": "Los Angeles, CA",
                 "employer": "Cannon",
@@ -799,7 +799,7 @@ export default {
             },
             {
                 "name": "Jaime Regis",
-                "major": "NE 15",
+                "major": "Nanoengineering",
                 "last updated": "5/16/19",
                 "city, state, country": "Sparks, NV",
                 "employer": "Sierra Nevada Corporation",
@@ -813,7 +813,7 @@ export default {
             },
             {
                 "name": "Emily Roethler",
-                "major": "SE 13",
+                "major": "Structural Engineering",
                 "last updated": "6/5/19",
                 "city, state, country": "Palm Springs, CA",
                 "employer": "City of Palm Springs",
@@ -827,7 +827,7 @@ export default {
             },
             {
                 "name": "Jimmy Roh",
-                "major": "ME 13",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "General Atomics",
@@ -841,7 +841,7 @@ export default {
             },
             {
                 "name": "Johnny Tran",
-                "major": "CoE 14",
+                "major": "Computer Engineering",
                 "last updated": "5/16/19",
                 "city, state, country": "San Diego, CA",
                 "employer": "Ultimate Software",
@@ -855,7 +855,7 @@ export default {
             },
             {
                 "name": "Abdallah (AB) Shaheen",
-                "major": "CE 13",
+                "major": "Computer Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Newbury Park, CA",
                 "employer": "Amgen",
@@ -869,7 +869,7 @@ export default {
             },
             {
                 "name": "Ryan Soo",
-                "major": "CS 14",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Gatos, CA, USA",
                 "employer": "Netflix",
@@ -888,7 +888,7 @@ export default {
         "members": [
             {
                 "name": "Jonathan Chen",
-                "major": "BE 14",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA, USA",
                 "employer": "Honey",
@@ -902,7 +902,7 @@ export default {
             },
             {
                 "name": "Asher Garland",
-                "major": "CS 13",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Redmond, WA, USA",
                 "employer": "Microsoft",
@@ -916,7 +916,7 @@ export default {
             },
             {
                 "name": "Phillip Graham",
-                "major": "CE 14",
+                "major": "Computer Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "Ajinomoto Bio-Pharma Services",
@@ -930,7 +930,7 @@ export default {
             },
             {
                 "name": "Masatoshi Kato",
-                "major": "ES 14",
+                "major": "",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -944,7 +944,7 @@ export default {
             },
             {
                 "name": "John Lau ",
-                "major": "ME 13",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Baldwin Park, CA, USA",
                 "employer": "One Daze Ventures Inc",
@@ -958,7 +958,7 @@ export default {
             },
             {
                 "name": "Yew Leong",
-                "major": "NE 15",
+                "major": "Nanoengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Tucson, AZ, USA",
                 "employer": "Raytheon",
@@ -972,7 +972,7 @@ export default {
             },
             {
                 "name": "John Recchio",
-                "major": "EE 13",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Mountain View, CA ",
                 "employer": "Microsoft",
@@ -986,7 +986,7 @@ export default {
             },
             {
                 "name": "Kenneth Tse",
-                "major": "EnE 15",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Greater LA",
                 "employer": "Kiewti",
@@ -1000,7 +1000,7 @@ export default {
             },
             {
                 "name": "Joshua Vallecillos",
-                "major": "SE 14",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "General Atomics ",
@@ -1014,7 +1014,7 @@ export default {
             },
             {
                 "name": "Vanessa Xia",
-                "major": "CE 15",
+                "major": "Computer Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "London, England",
                 "employer": "Bloomberg LP",
@@ -1028,7 +1028,7 @@ export default {
             },
             {
                 "name": "Alice Yu",
-                "major": "BE 15",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "Stanford University School of Medicine",
@@ -1047,7 +1047,7 @@ export default {
         "members": [
             {
                 "name": "Jacky Chan",
-                "major": "CS 13",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Mateo, CA",
                 "employer": "Salesforce",
@@ -1061,7 +1061,7 @@ export default {
             },
             {
                 "name": "Andrew Chuong",
-                "major": "EE 15",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "Caltrans",
@@ -1075,7 +1075,7 @@ export default {
             },
             {
                 "name": "Natascha Espiritu",
-                "major": "CE 15",
+                "major": "Computer Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "NNE, inc.",
@@ -1089,7 +1089,7 @@ export default {
             },
             {
                 "name": "Benjie Genchel",
-                "major": "EE 14",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Atlanta, GA, USA",
                 "employer": "Georgia Tech Center for Music Technology",
@@ -1103,7 +1103,7 @@ export default {
             },
             {
                 "name": "Grace Jang",
-                "major": "MAE 14",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "UTC Aerospace Systems",
@@ -1117,7 +1117,7 @@ export default {
             },
             {
                 "name": "Andy Kieatiwong",
-                "major": "MAE 15",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Additive Rocket Corporation",
@@ -1131,7 +1131,7 @@ export default {
             },
             {
                 "name": "Judy Lao",
-                "major": "CE 13",
+                "major": "Computer Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Seattle, CA",
                 "employer": "Juno Therapeutics, Inc",
@@ -1145,7 +1145,7 @@ export default {
             },
             {
                 "name": "Carol Luengas",
-                "major": "SE 16",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Mount Laurel, NJ",
                 "employer": "Maser Consulting P.A.",
@@ -1159,7 +1159,7 @@ export default {
             },
             {
                 "name": "Jamie Luong",
-                "major": "BE 15",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "UCSD Master's Candidate",
@@ -1173,7 +1173,7 @@ export default {
             },
             {
                 "name": "Luis Meraz",
-                "major": "ME 13",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA",
                 "employer": "Facebook",
@@ -1187,7 +1187,7 @@ export default {
             },
             {
                 "name": "Chris Nguyen",
-                "major": "MAE 15",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA",
                 "employer": "Go PropertyHop",
@@ -1201,7 +1201,7 @@ export default {
             },
             {
                 "name": "Skylar Pagenkopf",
-                "major": "CS 14",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA",
                 "employer": "Riot Games",
@@ -1215,7 +1215,7 @@ export default {
             },
             {
                 "name": "Thaomi Phuong",
-                "major": "BE 15",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Illumina",
@@ -1229,7 +1229,7 @@ export default {
             },
             {
                 "name": "Howard Tai",
-                "major": "ME 14",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Evisort",
@@ -1243,7 +1243,7 @@ export default {
             },
             {
                 "name": "Mio Unno",
-                "major": "EnE 15",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Atlanta, GA, USA",
                 "employer": "Arcadis",
@@ -1257,7 +1257,7 @@ export default {
             },
             {
                 "name": "Michael Wang",
-                "major": "ME 15",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Prospect, KY",
                 "employer": "Quadrant Solutions, Inc",
@@ -1271,7 +1271,7 @@ export default {
             },
             {
                 "name": "Edward Wong",
-                "major": "CS 15",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Menlo Park, CA, USA",
                 "employer": "Facebook",
@@ -1285,7 +1285,7 @@ export default {
             },
             {
                 "name": "Linda Wong",
-                "major": "EE 14",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "USC",
@@ -1299,7 +1299,7 @@ export default {
             },
             {
                 "name": "Alex Yang",
-                "major": "CS 14",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "New York City, NY, USA",
                 "employer": "Facebook",
@@ -1313,7 +1313,7 @@ export default {
             },
             {
                 "name": "Jamie Yang",
-                "major": "CS 15",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA, USA",
                 "employer": "Ultimate Software",
@@ -1332,7 +1332,7 @@ export default {
         "members": [
             {
                 "name": "Robert An",
-                "major": "EE 14",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -1346,7 +1346,7 @@ export default {
             },
             {
                 "name": "Laurence Chen",
-                "major": "BE 16",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA",
                 "employer": "UCLA",
@@ -1360,7 +1360,7 @@ export default {
             },
             {
                 "name": "Renn Darawali",
-                "major": "EnE 15",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "DNV GL",
@@ -1374,7 +1374,7 @@ export default {
             },
             {
                 "name": "Eric Fossum",
-                "major": "BE 14",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "BASF",
@@ -1388,7 +1388,7 @@ export default {
             },
             {
                 "name": "Daniel Kang",
-                "major": "CS 15",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Irvine, CA",
                 "employer": "Affirm inc",
@@ -1402,7 +1402,7 @@ export default {
             },
             {
                 "name": "Tyler Nakaya",
-                "major": "EnE 15",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Berkeley, CA",
                 "employer": "M Bar C Construction",
@@ -1416,7 +1416,7 @@ export default {
             },
             {
                 "name": "Elliott Park",
-                "major": "ME 15",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Internet Brands",
@@ -1430,7 +1430,7 @@ export default {
             },
             {
                 "name": "Emily Phan",
-                "major": "EnE 16",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Poway, CA",
                 "employer": "ASML",
@@ -1444,7 +1444,7 @@ export default {
             },
             {
                 "name": "Jennifer Phung",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, USA",
                 "employer": "Illumina",
@@ -1458,7 +1458,7 @@ export default {
             },
             {
                 "name": "Justin Salgado",
-                "major": "NE 15",
+                "major": "Nanoengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA",
                 "employer": "Takeda",
@@ -1472,7 +1472,7 @@ export default {
             },
             {
                 "name": "Taylor Takao",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Bloomberg LP",
@@ -1491,7 +1491,7 @@ export default {
         "members": [
             {
                 "name": "Patrick Chen",
-                "major": "SE 15",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "T.B. Penick and Sons, Inc.",
@@ -1523,7 +1523,7 @@ export default {
             },
             {
                 "name": "Aeri Iamsirithaworn",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "PwC",
@@ -1539,7 +1539,7 @@ export default {
             },
             {
                 "name": "Thomas Kuo",
-                "major": "BE 17",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "VISA",
@@ -1555,7 +1555,7 @@ export default {
             },
             {
                 "name": "Yutang Lin",
-                "major": "CS 16",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "Microsoft",
@@ -1571,7 +1571,7 @@ export default {
             },
             {
                 "name": "Michael Luo",
-                "major": "CS 15",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA",
                 "employer": "Twitch",
@@ -1603,7 +1603,7 @@ export default {
             },
             {
                 "name": "Andrew Sie",
-                "major": "CS 15",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Neustar",
@@ -1619,7 +1619,7 @@ export default {
             },
             {
                 "name": "Sharon Zheng",
-                "major": "CS",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "VISA",
@@ -1640,7 +1640,7 @@ export default {
         "members": [
             {
                 "name": "Amanda Bang",
-                "major": "CS",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Northrop Grumman",
@@ -1656,7 +1656,7 @@ export default {
             },
             {
                 "name": "Neal Barrina",
-                "major": "EE 16",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Manhattan Beach, CA",
                 "employer": "Northrop Grumman",
@@ -1672,7 +1672,7 @@ export default {
             },
             {
                 "name": "Claude-Henry Djongoue",
-                "major": "AE 17",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -1688,7 +1688,7 @@ export default {
             },
             {
                 "name": "Conway Hsieh",
-                "major": "BE 17",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Pittburgh, PA, USA",
                 "employer": "Carnegie Mellon University",
@@ -1704,7 +1704,7 @@ export default {
             },
             {
                 "name": "Jaehee Jung",
-                "major": "EE 18",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "N/A",
@@ -1720,7 +1720,7 @@ export default {
             },
             {
                 "name": "Kevin Ngo",
-                "major": "CS 15",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Anaheim, CA",
                 "employer": "Microsoft",
@@ -1736,7 +1736,7 @@ export default {
             },
             {
                 "name": "Olivia Tran",
-                "major": "CS 16",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Pleasanton, CA",
                 "employer": "Workday",
@@ -1752,7 +1752,7 @@ export default {
             },
             {
                 "name": "Richard Yuan",
-                "major": "EE 16",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Union City, CA",
                 "employer": "AT&T",
@@ -1768,7 +1768,7 @@ export default {
             },
             {
                 "name": "Kyle Zhu",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Self-Employed",
@@ -1789,7 +1789,7 @@ export default {
         "members": [
             {
                 "name": "Yusef Abouremeleh",
-                "major": "BE 16",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Illumina",
@@ -1805,7 +1805,7 @@ export default {
             },
             {
                 "name": "David Deng",
-                "major": "EE 17",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Rafael, CA, USA",
                 "employer": "NomadicVR",
@@ -1821,7 +1821,7 @@ export default {
             },
             {
                 "name": "Alex Fields",
-                "major": "Phys 17",
+                "major": "Physics",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "SensorMetrix",
@@ -1837,7 +1837,7 @@ export default {
             },
             {
                 "name": "Christian Gutierrez",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "UC San Diego Center for Cyber-Archaeology and Sustainability",
@@ -1853,7 +1853,7 @@ export default {
             },
             {
                 "name": "Blake Huynh",
-                "major": "EE 18",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego",
                 "employer": "InnovaSystems International",
@@ -1869,7 +1869,7 @@ export default {
             },
             {
                 "name": "Kaiser Kim",
-                "major": "CE 17",
+                "major": "Computer Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco",
                 "employer": "Coinbase",
@@ -1885,7 +1885,7 @@ export default {
             },
             {
                 "name": "Claire Li",
-                "major": "CS",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "Apple",
@@ -1901,7 +1901,7 @@ export default {
             },
             {
                 "name": "Wendy Lin",
-                "major": "ME 17",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego",
                 "employer": "General Atomics",
@@ -1917,7 +1917,7 @@ export default {
             },
             {
                 "name": "Teddy Tea",
-                "major": "AE 16",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "R&F Products / Laird Technologies",
@@ -1933,7 +1933,7 @@ export default {
             },
             {
                 "name": "Natalie Tiwapong",
-                "major": "CS 16",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "KnuEdge",
@@ -1949,7 +1949,7 @@ export default {
             },
             {
                 "name": "Alex Tunchez",
-                "major": "MAE 17",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "Additive Rocket Corporation",
@@ -1965,7 +1965,7 @@ export default {
             },
             {
                 "name": "Yue (Eunice) Wong",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Mateo, CA",
                 "employer": "Workday",
@@ -1981,7 +1981,7 @@ export default {
             },
             {
                 "name": "Jesse Zhou",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Francisco, CA, USA",
                 "employer": "Gusto",
@@ -2002,7 +2002,7 @@ export default {
         "members": [
             {
                 "name": "Randel Emens",
-                "major": "SE 16",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -2018,7 +2018,7 @@ export default {
             },
             {
                 "name": "Melissa Gomez",
-                "major": "SE 17",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA, USA",
                 "employer": "BNBuilders",
@@ -2034,7 +2034,7 @@ export default {
             },
             {
                 "name": "Edward Gunawan",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -2050,7 +2050,7 @@ export default {
             },
             {
                 "name": "Chelsea Jan",
-                "major": "BE 17",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "Illumina",
@@ -2066,7 +2066,7 @@ export default {
             },
             {
                 "name": "Kellie (Ming Ming) Liu",
-                "major": "MAE 18",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2082,7 +2082,7 @@ export default {
             },
             {
                 "name": "Crystal Munive",
-                "major": "MAE 18",
+                "major": "Aerospace Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2098,13 +2098,13 @@ export default {
             },
             {
                 "name": "Vinesh Nathan",
-                "major": "EE 17",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Deigo, CA, US",
                 "employer": "Qualcomm",
                 "position": "Engineer",
                 "what i do": "",
-                "big": "",
+                "big": "Andrew Sie",
                 "email": "vnathan321@gmail.com",
                 "phone number": "(408) 987 - 1777",
                 "nickname": "",
@@ -2114,7 +2114,7 @@ export default {
             },
             {
                 "name": "David Perez-Aguilar",
-                "major": "ChemE 17",
+                "major": "Chemical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2130,7 +2130,7 @@ export default {
             },
             {
                 "name": "Jessica Tran",
-                "major": "CS 18",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Jose, CA",
                 "employer": "Workday",
@@ -2146,7 +2146,7 @@ export default {
             },
             {
                 "name": "Terri Tsai",
-                "major": "EE 17",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Thermo Fisher",
@@ -2162,7 +2162,7 @@ export default {
             },
             {
                 "name": "Michael Wang",
-                "major": "EnE 16",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2178,7 +2178,7 @@ export default {
             },
             {
                 "name": "Jacob Weber",
-                "major": "BE 17",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Los Angeles, CA, USA",
                 "employer": "Medtronic Diabetes",
@@ -2199,7 +2199,7 @@ export default {
         "members": [
             {
                 "name": "Michael Chin",
-                "major": "CS 16",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "Seattle, WA, USA",
                 "employer": "Amazon AWS",
@@ -2215,7 +2215,7 @@ export default {
             },
             {
                 "name": "Adrian Gutierrez",
-                "major": "EnE18",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2231,7 +2231,7 @@ export default {
             },
             {
                 "name": "Kento Hayworth",
-                "major": "EnE 17",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "Fremont, CA, US",
                 "employer": "Walters & Wolf",
@@ -2247,7 +2247,7 @@ export default {
             },
             {
                 "name": "Judy Ho",
-                "major": "CS 18",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "Blizzard",
@@ -2263,7 +2263,7 @@ export default {
             },
             {
                 "name": "Chetu Khandavilli",
-                "major": "NE 19",
+                "major": "Math-CS",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2279,7 +2279,7 @@ export default {
             },
             {
                 "name": "Steven Lee",
-                "major": "ChemE 17",
+                "major": "Chemical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA",
                 "employer": "Wildcat Discovery Technologies",
@@ -2295,7 +2295,7 @@ export default {
             },
             {
                 "name": "Brendon Lim",
-                "major": "ME 17",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -2311,7 +2311,7 @@ export default {
             },
             {
                 "name": "Audrey Olson",
-                "major": "CS 17",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "",
                 "employer": "",
@@ -2327,7 +2327,7 @@ export default {
             },
             {
                 "name": "Brian Wuerstle",
-                "major": "EE 17",
+                "major": "Electrical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2343,7 +2343,7 @@ export default {
             },
             {
                 "name": "Daniel Zhang",
-                "major": "CS 18",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "Intuit",
@@ -2364,7 +2364,7 @@ export default {
         "members": [
             {
                 "name": "Rishi Dhanaraj",
-                "major": "CS 19",
+                "major": "Computer Science",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2380,7 +2380,7 @@ export default {
             },
             {
                 "name": "Tyler Ly",
-                "major": "CS 18",
+                "major": "Computer Science",
                 "last updated": "5/12/19",
                 "city, state, country": "San Francisco, CA, US",
                 "employer": "Gusto",
@@ -2396,7 +2396,7 @@ export default {
             },
             {
                 "name": "Brian Lyu",
-                "major": "CE 18",
+                "major": "Computer Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "?",
                 "employer": "Amazon",
@@ -2412,7 +2412,7 @@ export default {
             },
             {
                 "name": "Shawn Macasieb",
-                "major": "MAE 17",
+                "major": "Aerospace Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "",
                 "employer": "",
@@ -2428,7 +2428,7 @@ export default {
             },
             {
                 "name": "Syeda Momina Mahmood",
-                "major": "ChemE 19",
+                "major": "Chemical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2444,7 +2444,7 @@ export default {
             },
             {
                 "name": "Jennie Nguyen",
-                "major": "EnE 18",
+                "major": "Environmental Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "",
@@ -2460,13 +2460,13 @@ export default {
             },
             {
                 "name": "Esther Park",
-                "major": "EnE 19",
+                "major": "Environmental Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
                 "position": "Student",
                 "what i do": "",
-                "big": "",
+                "big": "Vinesh Nathan",
                 "email": "helloeenap@gmail.com",
                 "phone number": "(619) 952-4006",
                 "nickname": "",
@@ -2476,7 +2476,7 @@ export default {
             },
             {
                 "name": "Marilyn Sun",
-                "major": "ChemE 18",
+                "major": "Chemical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "",
@@ -2492,7 +2492,7 @@ export default {
             },
             {
                 "name": "Sherman Yip",
-                "major": "ME 18",
+                "major": "Mechanical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2513,7 +2513,7 @@ export default {
         "members": [
             {
                 "name": "Brian Chan ",
-                "major": "CS 19",
+                "major": "Computer Science",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "Tesla",
@@ -2529,7 +2529,7 @@ export default {
             },
             {
                 "name": "Justin Dulay",
-                "major": "SE 19",
+                "major": "Structural Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2545,7 +2545,7 @@ export default {
             },
             {
                 "name": "Michelle Galgana",
-                "major": "EE 17",
+                "major": "Electrical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "Seattle, WA",
                 "employer": "Boeing ",
@@ -2561,7 +2561,7 @@ export default {
             },
             {
                 "name": "Sivleng Kouv",
-                "major": "BE 19",
+                "major": "Bioengineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2577,7 +2577,7 @@ export default {
             },
             {
                 "name": "Wonjae Lee",
-                "major": "ChemE 18",
+                "major": "Chemical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "",
@@ -2593,7 +2593,7 @@ export default {
             },
             {
                 "name": "Yu Wei (David) Lin",
-                "major": "ChemE 20",
+                "major": "Chemical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2609,7 +2609,7 @@ export default {
             },
             {
                 "name": "Goutham Marimuthu",
-                "major": "AE 19",
+                "major": "Aerospace Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2625,7 +2625,7 @@ export default {
             },
             {
                 "name": "Aamir Rasheed",
-                "major": "CE 18",
+                "major": "Computer Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "Bay Area, CA, US",
                 "employer": "Stanford University",
@@ -2641,7 +2641,7 @@ export default {
             },
             {
                 "name": "Mayuki Sasagawa",
-                "major": "EnE 19",
+                "major": "Mechanical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2657,7 +2657,7 @@ export default {
             },
             {
                 "name": "Fumika Takazawa",
-                "major": "EnE 18",
+                "major": "Environmental Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "Cymer",
@@ -2673,7 +2673,7 @@ export default {
             },
             {
                 "name": "Manwinder (Money) Uppal ",
-                "major": "EnE 18",
+                "major": "Environmental Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2689,7 +2689,7 @@ export default {
             },
             {
                 "name": "Sze Nga (Rachael) Wong",
-                "major": "BE 18",
+                "major": "Bioengineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2710,7 +2710,7 @@ export default {
         "members": [
             {
                 "name": "Anahita (Ana) Dasgupta",
-                "major": "EnE 20",
+                "major": "Environmental Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2726,7 +2726,7 @@ export default {
             },
             {
                 "name": "Hillary Fan",
-                "major": "CS 19",
+                "major": "Computer Science",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2742,7 +2742,7 @@ export default {
             },
             {
                 "name": "Allen Gao",
-                "major": "CS 19",
+                "major": "Computer Science",
                 "last updated": "5/12/19",
                 "city, state, country": "Bay Area, CA, US",
                 "employer": "Google",
@@ -2758,7 +2758,7 @@ export default {
             },
             {
                 "name": "Shangway Hsu",
-                "major": "CS 18",
+                "major": "Computer Science",
                 "last updated": "5/12/19",
                 "city, state, country": "Bay Area, CA, US",
                 "employer": "Intuit",
@@ -2774,7 +2774,7 @@ export default {
             },
             {
                 "name": "Kevin Huo",
-                "major": "EnE 19",
+                "major": "Environmental Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2790,7 +2790,7 @@ export default {
             },
             {
                 "name": "Aston Khor",
-                "major": "ChemE 18",
+                "major": "Chemical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "Sunnyvale, CA, US",
                 "employer": "DigiLens Inc.",
@@ -2806,7 +2806,7 @@ export default {
             },
             {
                 "name": "Jeffrey Lee",
-                "major": "CS 19",
+                "major": "Computer Science",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2822,7 +2822,7 @@ export default {
             },
             {
                 "name": "Jason Li",
-                "major": "ME 19",
+                "major": "Mechanical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "",
@@ -2838,7 +2838,7 @@ export default {
             },
             {
                 "name": "Adam Lin",
-                "major": "ME 20",
+                "major": "Mechanical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2854,7 +2854,7 @@ export default {
             },
             {
                 "name": "Geoffrey Ngo",
-                "major": "EnE 19",
+                "major": "Environmental Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2870,7 +2870,7 @@ export default {
             },
             {
                 "name": "Meghna Satish",
-                "major": "M-CS 19",
+                "major": "Math-CS",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2886,7 +2886,7 @@ export default {
             },
             {
                 "name": "Victoria Tam",
-                "major": "BE 19",
+                "major": "Bioengineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2902,7 +2902,7 @@ export default {
             },
             {
                 "name": "John Tayag",
-                "major": "ME 18",
+                "major": "Mechanical Engineering",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "Solar Turbines",
@@ -2918,7 +2918,7 @@ export default {
             },
             {
                 "name": "Stephanie Zhu ",
-                "major": "CS 20",
+                "major": "Computer Science",
                 "last updated": "5/12/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2939,7 +2939,7 @@ export default {
         "members": [
             {
                 "name": "Sydney Huynh ",
-                "major": "SE 20",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2955,7 +2955,7 @@ export default {
             },
             {
                 "name": "Kakeru Imanaka",
-                "major": "ME 19",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2971,7 +2971,7 @@ export default {
             },
             {
                 "name": "Angela Joung",
-                "major": "BE 20",
+                "major": "Bioengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -2987,7 +2987,7 @@ export default {
             },
             {
                 "name": "Stacy Kim",
-                "major": "SE 21",
+                "major": "Cognitive Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3003,7 +3003,7 @@ export default {
             },
             {
                 "name": "Justin Lee",
-                "major": "EnvE 20",
+                "major": "Environmental Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3019,7 +3019,7 @@ export default {
             },
             {
                 "name": "Dat Nguyen",
-                "major": "SE 19",
+                "major": "Structural Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3035,7 +3035,7 @@ export default {
             },
             {
                 "name": "Soyoun Park",
-                "major": "Nano 21",
+                "major": "Nanoengineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3051,7 +3051,7 @@ export default {
             },
             {
                 "name": "Jerry Qing",
-                "major": "EE 21",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3067,7 +3067,7 @@ export default {
             },
             {
                 "name": "Huy Tran",
-                "major": "ME 21",
+                "major": "Mechanical Engineering",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3083,7 +3083,7 @@ export default {
             },
             {
                 "name": "Erick Wilson",
-                "major": "CS 20",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3099,7 +3099,7 @@ export default {
             },
             {
                 "name": "Jun Yin",
-                "major": "CS 21",
+                "major": "Computer Science",
                 "last updated": "2/27/18",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3120,7 +3120,7 @@ export default {
         "members": [
             {
                 "name": "Joshua Chao",
-                "major": "CS 22",
+                "major": "Computer Science",
                 "last updated": "6/26/19",
                 "city, state, country": "",
                 "employer": "",
@@ -3136,7 +3136,7 @@ export default {
             },
             {
                 "name": "Christopher Diep",
-                "major": "ChemE 19",
+                "major": "Chemical Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3152,7 +3152,7 @@ export default {
             },
             {
                 "name": "Eric Huynh",
-                "major": "CS 23",
+                "major": "Computer Science",
                 "last updated": "6/2019",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3168,7 +3168,7 @@ export default {
             },
             {
                 "name": "Simon Kim",
-                "major": "ME 22",
+                "major": "Mechanical Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3184,7 +3184,7 @@ export default {
             },
             {
                 "name": "Sho Kondo",
-                "major": "ME 23",
+                "major": "Mechanical Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3200,7 +3200,7 @@ export default {
             },
             {
                 "name": "Clark Phan",
-                "major": "M-CS 20",
+                "major": "Math-CS",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3216,7 +3216,7 @@ export default {
             },
             {
                 "name": "Justin Shieh",
-                "major": "BE 21",
+                "major": "Bioengineering",
                 "last updated": "6/26/19",
                 "city, state, country": "",
                 "employer": "",
@@ -3232,7 +3232,7 @@ export default {
             },
             {
                 "name": "Erin Songwang",
-                "major": "BE 22",
+                "major": "Bioengineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3248,7 +3248,7 @@ export default {
             },
             {
                 "name": "Olivia Thai",
-                "major": "M-CS 21",
+                "major": "Math-CS",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3264,7 +3264,7 @@ export default {
             },
             {
                 "name": "Peggy Tran",
-                "major": "EnvE 21",
+                "major": "Environmental Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3280,7 +3280,7 @@ export default {
             },
             {
                 "name": "Scott Tran",
-                "major": "ChemE 20 ",
+                "major": "Chemical Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "",
                 "employer": "",
@@ -3296,7 +3296,7 @@ export default {
             },
             {
                 "name": "William Tzou",
-                "major": "Nano 22",
+                "major": "Nanoengineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3312,7 +3312,7 @@ export default {
             },
             {
                 "name": "Jocelyn Wei",
-                "major": "CS 23",
+                "major": "Computer Science",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3333,7 +3333,7 @@ export default {
         "members": [
             {
                 "name": "Heather Gan",
-                "major": "M-CS 22",
+                "major": "Math-CS",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3349,7 +3349,7 @@ export default {
             },
             {
                 "name": "Kyle Gillaspy",
-                "major": "CS 24",
+                "major": "Computer Science",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3365,7 +3365,7 @@ export default {
             },
             {
                 "name": "Rick Huynh",
-                "major": "M-CS 23",
+                "major": "Math-CS",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3381,7 +3381,7 @@ export default {
             },
             {
                 "name": "Kamran Jahadi",
-                "major": "ChemE 21",
+                "major": "Chemistry",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3397,7 +3397,7 @@ export default {
             },
             {
                 "name": "Darren Jian",
-                "major": "BE 23",
+                "major": "Math-CS",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3413,7 +3413,7 @@ export default {
             },
             {
                 "name": "Everett Lin",
-                "major": "EE 22",
+                "major": "Electrical Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3429,7 +3429,7 @@ export default {
             },
             {
                 "name": "Neha Pusarla",
-                "major": "BE 24",
+                "major": "Bioengineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3445,7 +3445,7 @@ export default {
             },
             {
                 "name": "Raeek Rahman",
-                "major": "BE 25",
+                "major": "Bioengineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3461,7 +3461,7 @@ export default {
             },
             {
                 "name": "Jonathan Song",
-                "major": "EnvE 22",
+                "major": "Environmental Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3477,7 +3477,7 @@ export default {
             },
             {
                 "name": "Angelica Jane Tan",
-                "major": "AE 20",
+                "major": "Aerospace Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3493,7 +3493,7 @@ export default {
             },
             {
                 "name": "Britney Tran",
-                "major": "EnvE 23",
+                "major": "Environmental Engineering",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3509,7 +3509,7 @@ export default {
             },
             {
                 "name": "Will Xu",
-                "major": "CE 19",
+                "major": "Computer Science",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3525,7 +3525,7 @@ export default {
             },
             {
                 "name": "Esther Zhao",
-                "major": "CS 25",
+                "major": "Computer Science",
                 "last updated": "6/26/19",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3546,7 +3546,7 @@ export default {
         "members": [
             {
                 "name": "Barry Cheung",
-                "major": "MechE 20",
+                "major": "Mechanical Engineering",
                 "pixelLocationX": 654.5739242506371,
                 "pixelLocationY": 376.08905624690067,
                 "last updated": "5/27/2018",
@@ -3562,7 +3562,7 @@ export default {
             },
             {
                 "name": "BaoBao Laosirihongthong",
-                "major": "ChemE 21",
+                "major": "Chemical Engineering",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": "UCSD",
@@ -3578,7 +3578,7 @@ export default {
             },
             {
                 "name": "Austin Le",
-                "major": "DataS 21",
+                "major": "Data Science",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
@@ -3594,7 +3594,7 @@ export default {
             },
             {
                 "name": "Amy Li",
-                "major": "CS 22",
+                "major": "Computer Science",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
@@ -3610,7 +3610,7 @@ export default {
             },
             {
                 "name": "Jack Lin",
-                "major": "DataS 21",
+                "major": "Data Science",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
@@ -3626,7 +3626,7 @@ export default {
             },
             {
                 "name": "Jordan Luk",
-                "major": "MechE 22",
+                "major": "Mechanical Engineering",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
@@ -3642,7 +3642,7 @@ export default {
             },
             {
                 "name": "Ryan Murase",
-                "major": "CS 20",
+                "major": "Computer Science",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
@@ -3658,7 +3658,7 @@ export default {
             },
             {
                 "name": "Brent Neldner",
-                "major": "CS 20",
+                "major": "Computer Science",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
@@ -3674,7 +3674,7 @@ export default {
             },
             {
                 "name": "Jade Tran",
-                "major": "ChemE 21",
+                "major": "Chemical Engineering",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
@@ -3690,7 +3690,7 @@ export default {
             },
             {
                 "name": "Claire Zhang",
-                "major": "BE 22",
+                "major": "Bioengineering",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
@@ -3706,7 +3706,7 @@ export default {
             },
             {
                 "name": "Lulu Zhu",
-                "major": "CS 22",
+                "major": "Computer Science",
                 "last updated": "5/27/2018",
                 "city, state, country": "San Diego, CA, US",
                 "employer": " UCSD",
