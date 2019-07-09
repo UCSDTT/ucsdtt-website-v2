@@ -7,10 +7,23 @@
 1. Install with `npm install`
 2. Build with `npm run build`
 3. Run development server with `npm run dev`
-4. Write static site to `__sapper__/export` with `npm run export` (more on this later)
+4. Go to the link specified by the output of 3.
 
 ## Making Changes 
 You can run the script in tools/deploy.sh to immeidately add/commit/deploy/push your changes. Feel free to run any of the commands in there one by one if you want more fine-tuned control.
+
+### Making Changes to the Active Data
+You can find the active data split into three files:
+1. `static/data/epsilon_delta_roster.csv`  
+   This file contains data drawn from the Epsilon Delta roster on the Theta Tau One Stop. The first row contains the various headers, and the following rows contain the active data that we have. An empty entry means that active doesn't have that data recorded.
+2. `static/data/epsilon_delta_roster.json`
+   A JSON file used to parse in Python. This file is read by the Python scripts in the tools folder, and can be used as a primary "single-truth" to reference.
+3. `src/scripts/epsilon_delta_roster.js`
+   Basically, a copy of 2. but with `export default` so it is available to JavaScript. The data in this file is passed to the `PledgeClass` component from `members.svelte`.
+
+To change the data, modify the CSV directly and run `python[3] tools/convertCSVtoJSON.py`. This will merge the changes from the CSV into both the JSON and JS files for each member individually, allowing you to maintain data that is unchanged (i.e. pixel data) for the actives.
+
+To set pixel locations, run `python[3] tools/addPixelsToJSON.py [...pledgeClasses]`. Pixel locations are where each active's face is located in their respective class photos. This data is only added to the JSON and JS files. Put the names of the pledge classes you wish to modify as arguments.
 
 ## Contributing Guidelines:
 To contribute, please create a separate branch named `<your initials>/<what you did>`. For example, a change I would make
@@ -22,15 +35,22 @@ If you want to make sure your changes were deployed, run `git diff` and see if t
 been committed. If this is the case, run `git add -A` and then follow the normal pipeline.
 
 ## Todo's:
-- Document existing code.
+- Document *ALL* existing code
 - Protect the master branch
+- Integrate a linter and a styler
 - Add style checks
-- Add tests to Cypress
-- Complete Index
-- Create About page
+- ~~Complete Index~~
+- Finalize Index by adding final style changes and any extra features
+- ~~Create About page~~
+- Fix Carousel to work with mobile
+- Add more information to the about page
 - Create Rush page
-- Create FAQ page
-- Create members page
+- ~~Create FAQ page~~
+- ~~Create members page~~
+- Add pixel data for all classes
+- Make a mobile rendition of members page
+- Update all major data in active data
+- Final style check and design approval
 - Transfer domains
 
 ## Project Structure:
